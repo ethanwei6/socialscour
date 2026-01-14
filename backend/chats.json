@@ -1,0 +1,711 @@
+{
+  "chats": [
+    {
+      "id": "294b3a15-74ca-4b49-8ff0-10c7dd4344cb",
+      "title": "Iphone 16 sentiment",
+      "messages": [
+        {
+          "id": "c0421db6-3366-4bd4-9a10-2c47e2b25e44",
+          "role": "user",
+          "content": "Iphone 16 sentiment",
+          "timestamp": "2026-01-06T22:58:13.278872"
+        },
+        {
+          "id": "c0421db6-3366-4bd4-9a10-2c47e2b25e44",
+          "role": "user",
+          "content": "Iphone 16 sentiment",
+          "timestamp": "2026-01-06T22:58:13.278872"
+        },
+        {
+          "id": "c0421db6-3366-4bd4-9a10-2c47e2b25e44",
+          "role": "assistant",
+          "content": "Report generated successfully",
+          "timestamp": "2026-01-06T22:58:13.278872"
+        }
+      ],
+      "sources": [
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "Ming-Chi Kuo survey: Apple's iPhone 16 series, particularly ...",
+          "url": "https://www.reddit.com/r/apple/comments/1fn6jlf/mingchi_kuo_survey_apples_iphone_16_series/",
+          "subreddit": "apple",
+          "upvotes": 0,
+          "content": "Analysis: Apple's Misstep: The data implies that Apple may have overestimated consumer interest in the iPhone 16 Pro Max, particularly in its",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        },
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "Is the iPhone 16 Pro Max still worth buying nearly a year ...",
+          "url": "https://www.reddit.com/r/iPhone16ProMax/comments/1lt2d89/is_the_iphone_16_pro_max_still_worth_buying/",
+          "subreddit": "iPhone16ProMax",
+          "upvotes": 0,
+          "content": "I'm currently using the iPhone 16 Pro Max, and while it's undeniably powerful and smooth, I have to admit I'm still more in love with my Samsung",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        },
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "Major disappointment with iPhone 16 & iPhone innovation",
+          "url": "https://www.reddit.com/r/iphone/comments/1kjw67o/major_disappointment_with_iphone_16_iphone/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "I've upgraded to the iPhone 16 Pro Max and for the first time ever, I'm honestly shocked by how underwhelming it is. No real innovation. None of the new",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        },
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "My experience with the new iPhone 16e so far, what I like/ ...",
+          "url": "https://www.reddit.com/r/iphone/comments/1j5f9ni/my_experience_with_the_new_iphone_16e_so_far_what/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "I like the 16e. It's a great phone for my needs. Good size, decent price, great feel. Refresh rate (60hz) could've been better. I think if you",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        },
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "I bought an iPhone 16, and I have absolutely 0 \u00ab wow",
+          "url": "https://www.reddit.com/r/iphone/comments/1kbboxv/i_bought_an_iphone_16_and_i_have_absolutely_0_wow/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "The 16 is basically an Xr with better photo lenses. I can see that when I watch keynote.",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        },
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "Please tell me your experience with iPhone 16 pro..",
+          "url": "https://www.reddit.com/r/iPhone16Pro/comments/1ht9j59/please_tell_me_your_experience_with_iphone_16_pro/",
+          "subreddit": "iPhone16Pro",
+          "upvotes": 0,
+          "content": "The camera is phenomenal! Upgrading from the iPhone 11, I can feel the difference; it's so clear and crisp. I also love the photographic styles",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        },
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "Review of the iPhone 16 Pro Max from an ordinary ...",
+          "url": "https://www.reddit.com/r/iphone/comments/1i35yug/review_of_the_iphone_16_pro_max_from_an_ordinary/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "The phone does do nicely with regulating temperature, even with AI, and the screen and graphics quality is eons better than my old 11 Pro Max",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        },
+        {
+          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
+          "title": "Deciding between the iPhone 16e and the 17",
+          "url": "https://www.reddit.com/r/digitalminimalism/comments/1q1rdjs/deciding_between_the_iphone_16e_and_the_17/",
+          "subreddit": "digitalminimalism",
+          "upvotes": 0,
+          "content": "- The 16e is the cheaper phone that does what I need. Save the money and put it towards something else in my life. I just wish it had 120hz",
+          "timestamp": "2026-01-06T22:58:13.279317"
+        }
+      ],
+      "created_at": "2026-01-06T22:58:13.279815",
+      "updated_at": "2026-01-06T22:58:42.320283",
+      "subreddit_filter": null
+    },
+    {
+      "id": "e46bcabe-667a-4416-8b20-e9da6512d3b9",
+      "title": "Iphone 16",
+      "messages": [
+        {
+          "id": "854a21b1-9c20-4b84-a16d-594d8bffed1f",
+          "role": "user",
+          "content": "Iphone 16",
+          "timestamp": "2026-01-06T23:03:21.716637"
+        },
+        {
+          "id": "854a21b1-9c20-4b84-a16d-594d8bffed1f",
+          "role": "user",
+          "content": "Iphone 16",
+          "timestamp": "2026-01-06T23:03:21.716637"
+        },
+        {
+          "id": "854a21b1-9c20-4b84-a16d-594d8bffed1f",
+          "role": "assistant",
+          "content": "Report generated successfully",
+          "timestamp": "2026-01-06T23:03:21.716637"
+        }
+      ],
+      "sources": [
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "r/iPhone16Pro - A simple comparison for those who can't ...",
+          "url": "https://www.reddit.com/r/iPhone16Pro/comments/1fs4o06/a_simple_comparison_for_those_who_cant_decide/",
+          "subreddit": "iPhone16Pro",
+          "upvotes": 0,
+          "content": "Yes, the regular iPhone 16 has an f/1.6 aperture on its 48MP wide lens, which allows more light in, making it great for low-light photography.",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        },
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "Everything to Expect From Apple's iPhone 16 Launch on ...",
+          "url": "https://www.reddit.com/r/apple/comments/1faimnw/everything_to_expect_from_apples_iphone_16_launch/",
+          "subreddit": "apple",
+          "upvotes": 0,
+          "content": "Apple will launch four new iPhone models: iPhone 16, 16 Plus, 16 Pro, and 16 Pro Max. The non-Pro models will have minor upgrades.",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        },
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "iPhone 16 and iPhone 16 Plus Reviews: 'Pro Features at a ...",
+          "url": "https://www.reddit.com/r/apple/comments/1fk2t7x/iphone_16_and_iphone_16_plus_reviews_pro_features/",
+          "subreddit": "apple",
+          "upvotes": 0,
+          "content": "One of the \u200ciPhone\u200c 16's key features is support for Apple Intelligence. While many of these features are still on the way with future software",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        },
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "Apple announced iPhone 16 event for September 9th",
+          "url": "https://www.reddit.com/r/iphone/comments/1f1rzh9/apple_announced_iphone_16_event_for_september_9th/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "Everything to Expect From Apple's iPhone 16 Launch on Sept. 9 \u00b7 r/apple - Everything to Expect From Apple's iPhone 16 Launch on Sept. 9.",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        },
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "iPhone 16 Range Launch - New Camera Features",
+          "url": "https://www.reddit.com/r/smartphonefilming/comments/1fcx9ju/iphone_16_range_launch_new_camera_features_first/",
+          "subreddit": "smartphonefilming",
+          "upvotes": 0,
+          "content": "Everything to Expect From Apple's iPhone 16 Launch on Sept.\u200b\u200b iPhone 16 launch: A look at all the new features!",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        },
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "What are the standout features of the iPhone 16 that justify ...",
+          "url": "https://www.reddit.com/r/AskReddit/comments/1fqpf4q/what_are_the_standout_features_of_the_iphone_16/",
+          "subreddit": "AskReddit",
+          "upvotes": 0,
+          "content": "For someone who hasn't gotten a phone in a few years, there's the obvious advantage of it being newer and faster and with a fresh battery.",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        },
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "Are there any pros/cons for the Iphone 16's and up? And if ...",
+          "url": "https://www.reddit.com/r/iphone/comments/1pylnl5/are_there_any_proscons_for_the_iphone_16s_and_up/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "The 16+ just come with better battery life, cameras (if you care about that), brighter screens on the pro and pro maxes, and usb-c charging.",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        },
+        {
+          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
+          "title": "When will Apple launch the iPhone 16 and iPhone 16 Pro?",
+          "url": "https://www.reddit.com/r/apple/comments/1emyxdd/when_will_apple_launch_the_iphone_16_and_iphone/",
+          "subreddit": "apple",
+          "upvotes": 0,
+          "content": "They'll announce it mid September, normally the second Tuesday of the month to release the Friday a couple of weeks later.",
+          "timestamp": "2026-01-06T23:03:21.717046"
+        }
+      ],
+      "created_at": "2026-01-06T23:03:21.717534",
+      "updated_at": "2026-01-06T23:03:44.752959",
+      "subreddit_filter": null
+    },
+    {
+      "id": "d211fc47-015e-46c5-914e-970de9c41302",
+      "title": "iPhone 17 pro max",
+      "messages": [
+        {
+          "id": "8ae7a474-d4b4-407d-bed5-b8874c6cb403",
+          "role": "user",
+          "content": "iPhone 17 pro max sentiment",
+          "timestamp": "2026-01-06T23:07:47.415663"
+        },
+        {
+          "id": "8ae7a474-d4b4-407d-bed5-b8874c6cb403",
+          "role": "user",
+          "content": "iPhone 17 pro max sentiment",
+          "timestamp": "2026-01-06T23:07:47.415663"
+        },
+        {
+          "id": "8ae7a474-d4b4-407d-bed5-b8874c6cb403",
+          "role": "assistant",
+          "content": "Report generated successfully",
+          "timestamp": "2026-01-06T23:07:47.415663"
+        }
+      ],
+      "sources": [
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "My review of the new iPhone 17 Pro Max : r/iPhone17Pro",
+          "url": "https://www.reddit.com/r/iPhone17Pro/comments/1nu74u2/my_review_of_the_new_iphone_17_pro_max/",
+          "subreddit": "iPhone17Pro",
+          "upvotes": 0,
+          "content": "TLDR: The iPhone 17 Pro Max is the best iPhone I've owned. Better battery, cooler under stress, and a camera that kills it for work and daily",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        },
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "iPhone 17 Pro Max owner, opinion after 2 months?",
+          "url": "https://www.reddit.com/r/iphone/comments/1oyo79w/iphone_17_pro_max_owner_opinion_after_2_months/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "Battery life is pretty amazing, camera is phenomenal (I take quite a few photos), screen is excellent. It is definitely a chonk of a phone (",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        },
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "Now that it's been a while how are you 17 pro max owners ...",
+          "url": "https://www.reddit.com/r/iphone/comments/1puwkmw/now_that_its_been_a_while_how_are_you_17_pro_max/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "Battery life is great. IOS 26 isn't especially bad, it still needs to be refined. Performance wise it's amazing. No heat issues at all. Treat",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        },
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "iPhone 17 Pro Max users, after a while have you felt like ...",
+          "url": "https://www.reddit.com/r/iphone/comments/1nz6jcs/iphone_17_pro_max_users_after_a_while_have_you/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "I have had the 17pm for 1 day and im already feeling numbness and nerve pain for the first time in my life. It's starting to feel dangerous",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        },
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "iPhone 17 Pro Max user experience? How does it compare ...",
+          "url": "https://www.reddit.com/r/iphone/comments/1p2orrg/iphone_17_pro_max_user_experience_how_does_it/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "Camera is great and overall usage is similar to my 16PM. The biggest upgrade I noticed is the heat dissipation . With previous gens I've noticed",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        },
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "iPhone 17 Pro Max Review - Even BETTER Than You Think ...",
+          "url": "https://www.reddit.com/r/apple/comments/1njbet1/iphone_17_pro_max_review_even_better_than_you/",
+          "subreddit": "apple",
+          "upvotes": 0,
+          "content": "Picked up my 17 Pro Max and it slaps 100% - biggest wow factor is a much brighter and more contrast display. For the first time everything on it",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        },
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "Am I the only one seriously disappointed with the 17 Pro?",
+          "url": "https://www.reddit.com/r/iphone/comments/1q0dazq/am_i_the_only_one_seriously_disappointed_with_the/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "It feels like a base model iPhone. No premium feel. The finish is already wearing off within 12 hours of opening the box. Not impressed by the",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        },
+        {
+          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
+          "title": "Am I the only feeling that my Iphone17 pro max is laggy as ...",
+          "url": "https://www.reddit.com/r/iphone/comments/1p5dglm/am_i_the_only_feeling_that_my_iphone17_pro_max_is/",
+          "subreddit": "iphone",
+          "upvotes": 0,
+          "content": "Quite a number of people are experiencing lags and stutters. My 17 pro also lags. I hope Apple fixes it with next iOS update",
+          "timestamp": "2026-01-06T23:07:47.416065"
+        }
+      ],
+      "created_at": "2026-01-06T23:07:47.416540",
+      "updated_at": "2026-01-06T23:08:18.164406",
+      "subreddit_filter": null
+    },
+    {
+      "id": "2a58f88a-bf21-4824-b965-d9554d86c3be",
+      "title": "Palantir stock",
+      "messages": [
+        {
+          "id": "0d4616f7-432e-4098-b787-723e40f580e8",
+          "role": "user",
+          "content": "Palantir stock",
+          "timestamp": "2026-01-06T23:10:07.941492"
+        },
+        {
+          "id": "0d4616f7-432e-4098-b787-723e40f580e8",
+          "role": "user",
+          "content": "Palantir stock",
+          "timestamp": "2026-01-06T23:10:07.941492"
+        },
+        {
+          "id": "0d4616f7-432e-4098-b787-723e40f580e8",
+          "role": "assistant",
+          "content": "Report generated successfully",
+          "timestamp": "2026-01-06T23:10:07.941492"
+        }
+      ],
+      "sources": [
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "Wall Street wrote off Palantir as too expensive. Retail ...",
+          "url": "https://www.reddit.com/r/StockMarket/comments/1pvjpg5/wall_street_wrote_off_palantir_as_too_expensive/",
+          "subreddit": "StockMarket",
+          "upvotes": 0,
+          "content": "Palantir stock slumps 9%, falling for a fifth straight day from record ... Palantir stock drops 8% on valuation concerns as CEO Alex Karp",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        },
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "Has Palantir Technologies Become a Better Artificial ...",
+          "url": "https://www.reddit.com/r/PLTR/comments/1ouuufl/has_palantir_technologies_become_a_better/",
+          "subreddit": "PLTR",
+          "upvotes": 0,
+          "content": "I love Palantir stock but fundamentally it's a lot riskier than Nvidia . Just buy both and adjust the proportion depending on your risk",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        },
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "I don't understand Palantir : r/ValueInvesting",
+          "url": "https://www.reddit.com/r/ValueInvesting/comments/1miteyo/i_dont_understand_palantir/",
+          "subreddit": "ValueInvesting",
+          "upvotes": 0,
+          "content": "Palantir is not a value stock. Value investors need not apply. The most expensive stock in the market just keeps getting more expensive, making",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        },
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "r/palantir",
+          "url": "https://www.reddit.com/r/palantir/",
+          "subreddit": "palantir",
+          "upvotes": 0,
+          "content": "Veteran fund manager reboots Palantir stock price target - As a result, he's increased his price target to $140 per share from $130.",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        },
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "Palantir: A wonderful company , with a not so ...",
+          "url": "https://www.reddit.com/r/ValueInvesting/comments/1mk4b3s/palantir_a_wonderful_company_with_a_not_so/",
+          "subreddit": "ValueInvesting",
+          "upvotes": 0,
+          "content": "In the last couple of months Palantir's share price has gone parabolic. Today it flirted with $184 per share, more than seven times its 2024",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        },
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "Palantir short thesis and an analysis of its current earnings ...",
+          "url": "https://www.reddit.com/r/stocks/comments/1gv6hj0/palantir_short_thesis_and_an_analysis_of_its/",
+          "subreddit": "stocks",
+          "upvotes": 0,
+          "content": "Palantir dropped 16% in November for its worst month in two years since August 2023 as AI stocks sell off due to valuation fears. r/technology",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        },
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "What are your thoughts on the company Palantir? : r/investing",
+          "url": "https://www.reddit.com/r/investing/comments/1okwp3r/what_are_your_thoughts_on_the_company_palantir/",
+          "subreddit": "investing",
+          "upvotes": 0,
+          "content": "Palantir trades at over 225x forward earnings and has like a 600 P/E ratio. Can that valuation really hold up? Even with its strong AI and",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        },
+        {
+          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
+          "title": "PALANTIR is at now at 569.69 PE. Is it a sign for a big short ...",
+          "url": "https://www.reddit.com/r/stocks/comments/1nfvisi/palantir_is_at_now_at_56969_pe_is_it_a_sign_for_a/",
+          "subreddit": "stocks",
+          "upvotes": 0,
+          "content": "PALANTIR is at now at 569.69 PE. Is it a sign for a big short or a small long ? ... The stock has skyrocketed like crazy and I don't seem to",
+          "timestamp": "2026-01-06T23:10:07.941903"
+        }
+      ],
+      "created_at": "2026-01-06T23:10:07.942382",
+      "updated_at": "2026-01-06T23:11:00.301966",
+      "subreddit_filter": null
+    },
+    {
+      "id": "9718a86c-3b83-4f58-b0d5-d8ee29a882df",
+      "title": "ole henriksen lip gloss",
+      "messages": [
+        {
+          "id": "7f9d59ba-3cca-4fc7-8fdf-471a6fe2f89c",
+          "role": "user",
+          "content": "ole henriksen lip gloss sentiment",
+          "timestamp": "2026-01-06T23:13:07.641360"
+        },
+        {
+          "id": "7f9d59ba-3cca-4fc7-8fdf-471a6fe2f89c",
+          "role": "user",
+          "content": "ole henriksen lip gloss sentiment",
+          "timestamp": "2026-01-06T23:13:07.641360"
+        },
+        {
+          "id": "7f9d59ba-3cca-4fc7-8fdf-471a6fe2f89c",
+          "role": "assistant",
+          "content": "**Sentiment Explanation:**\nThe 85.0/100 (Very Positive) sentiment score for Ole Henriksen lip gloss is driven by widespread praise for its exceptional hydrating properties, pleasant scents, and long-lasting wear. Users consistently prefer it over competitors, citing its effective moisturizing benefits and comfortable, cushiony texture as primary factors for satisfaction.\n\n**Direct Answer:**\nReddit discussions reveal a predominantly very positive sentiment towards Ole Henriksen lip gloss, with many users considering it their absolute favorite lip product. Its superior hydration, appealing scents, and lasting effectiveness are consistently highlighted as key strengths, often outperforming competing brands.\n\n**Key Sentiment Drivers:**\n*   **Exceptional Hydration and Moisturizing Effects:** Users frequently report that the gloss leaves lips ultra-hydrated, moisturized overnight, and effectively prevents dryness or flaking [5, 8].\n*   **Pleasant and Realistic Scents/Flavors:** The scents, particularly citrus and strawberry, are highly praised for being realistic, pleasant, and non-overpowering, even for scent-sensitive individuals [1, 2, 8].\n*   **Effective Longevity and Wear:** The product is noted for staying on for a long time, providing lasting moisture whether worn during the day or overnight [3, 4, 8].\n*   **Favorable Texture and Consistency:** Many users appreciate its thick and cushiony consistency, finding it hydrating without being excessively heavy, often preferring it to other brands [6, 7].\n*   **Superiority over Competitors:** Users commonly declare Ole Henriksen their \"absolute favorite,\" stating it works better for them compared to products from brands like Summer Fridays, Rhode, and Glossier [4, 6].\n\n**Contradicting Views:**\n*   **Perceived Stickiness and Heaviness:** A minority of users express dissatisfaction with the product's feel, describing it as \"WAY too sticky and heavy,\" despite liking its scent and longevity [3].",
+          "timestamp": "2026-01-06T23:13:07.641360"
+        }
+      ],
+      "sources": [
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "Ole Henriksen pout preserve for scent-sensitive people?",
+          "url": "https://www.reddit.com/r/Sephora/comments/1i1xa2e/ole_henriksen_pout_preserve_for_scentsensitive/",
+          "subreddit": "Sephora",
+          "upvotes": 0,
+          "content": "I am also very scent sensitive and I love these glosses! They're my fav by far. The citrus is my favourite probably and I think the scent is my",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        },
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "Review: Glossier and Ole Henriksen lippies : r/marshallsfinds",
+          "url": "https://www.reddit.com/r/marshallsfinds/comments/1mxffac/review_glossier_and_ole_henriksen_lippies/",
+          "subreddit": "marshallsfinds",
+          "upvotes": 0,
+          "content": "The flavor/scent of Ole is more realistic and pleasant than the flavor/scent of Glossier. Neither overpower your nose or distract you. Balm",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        },
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "Does anyone else dislike the Ole Henriksen lip balm??",
+          "url": "https://www.reddit.com/r/Sephora/comments/1pog4j3/does_anyone_else_dislike_the_ole_henriksen_lip/",
+          "subreddit": "Sephora",
+          "upvotes": 0,
+          "content": "My honest review is this: I love the scents and the longevity but I really dislike everything else. It's WAY too sticky and heavy and it leaves",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        },
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "anyone else disappointed by the ole henriksen lip treatment?",
+          "url": "https://www.reddit.com/r/Sephora/comments/1f216cu/anyone_else_disappointed_by_the_ole_henriksen_lip/",
+          "subreddit": "Sephora",
+          "upvotes": 0,
+          "content": "and Summer Fridays (which I also love, but the ole is my absolute favorite. I hate the rhode it caused my lips to completely dry out and start flaking off.\n\n4\n\n1 more reply\n\n1 more reply\n\nContinue this thread\n\n[deleted]\n\n\u20221y ago\n\nno, i love it honestly. the summer fridays one i have is nice, but doesn't work as well for me. it could be the climate you live in.\n\n4\n\nImage 22: u/fairycanary avatar\n\nfairycanary\n\n\u20221y ago [...] I was sooooo excited for this and tbh it last a long time on me, but as soon as the thick layer goes away my lips don\u2019t feel hydrated at all. I much prefer summer fridays or rhode. also the flavor was so eh\n\nedit: spelling haha\n\n Read more \n\n Share \n\n  \n\nImage 2: u/JCPenney avatarJCPenney\u2022Promoted\n\nTwas the day of Black Friday, and all through the store, all the shoppers were saving, on clothes, toys, and more\n\nShop Now\n\n jcpenney.com [...] I like it. I\u2019m not obsessed with it though, but I think the nature of social media acting like any product will change your life ",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        },
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "Ole Henriksen Pout Preserve vs. Laneige Lip Glowy Balm",
+          "url": "https://www.reddit.com/r/Sephora/comments/1h20mws/ole_henriksen_pout_preserve_vs_laneige_lip_glowy/",
+          "subreddit": "Sephora",
+          "upvotes": 0,
+          "content": "It's almost like a lighter version of a lip gloss that also leaves my lips ultra-hydrated and never crusty. It's by far the best lip balm I've",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        },
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "Summer Fridays or OleHenriksen lip gloss? : r/Sephora",
+          "url": "https://www.reddit.com/r/Sephora/comments/1bwaurz/summer_fridays_or_olehenriksen_lip_gloss/",
+          "subreddit": "Sephora",
+          "upvotes": 0,
+          "content": "Ole is my favorite by far. It's thicker and more cushiony than the summer Fridays. I have the clear creamsicle one and the tinted strawberry one.",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        },
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "help me out, why does this sub love olehenriksen lip ...",
+          "url": "https://www.reddit.com/r/Sephora/comments/1ox7f7t/help_me_out_why_does_this_sub_love_olehenriksen/",
+          "subreddit": "Sephora",
+          "upvotes": 0,
+          "content": "They're very hydrating and have a thick but not too thick consistency. They smell nice and if you get some in your mouth it tastes decent. The",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        },
+        {
+          "id": "3793a50f-9d8f-4d05-b517-9df448906d11",
+          "title": "Ole henriksen peptide lip treatment : r/Sephora",
+          "url": "https://www.reddit.com/r/Sephora/comments/1es5107/ole_henriksen_peptide_lip_treatment/",
+          "subreddit": "Sephora",
+          "upvotes": 0,
+          "content": "When worn at night, it stays on and lips feel moisturized in the morning. I personally love the strawberry scented one. For a balm, I think it's",
+          "timestamp": "2026-01-06T23:13:07.641772"
+        }
+      ],
+      "created_at": "2026-01-06T23:13:07.642249",
+      "updated_at": "2026-01-06T23:14:49.811306",
+      "subreddit_filter": null
+    },
+    {
+      "id": "4eebc549-7581-4603-88ec-5c531462ba69",
+      "title": "tenzingplasty",
+      "messages": [
+        {
+          "id": "b3d84bf7-80c7-479e-a137-c8c555a68baa",
+          "role": "user",
+          "content": "tenzingplasty",
+          "timestamp": "2026-01-06T23:15:37.998025"
+        },
+        {
+          "id": "b3d84bf7-80c7-479e-a137-c8c555a68baa",
+          "role": "user",
+          "content": "tenzingplasty",
+          "timestamp": "2026-01-06T23:15:37.998025"
+        },
+        {
+          "id": "b3d84bf7-80c7-479e-a137-c8c555a68baa",
+          "role": "assistant",
+          "content": "**Sentiment Explanation:**\nThe sentiment score of 90.0/100 (Very Positive) for \"tenzingplasty\" is primarily driven by its demonstrated clinical efficacy and successful outcomes in treating severe cerebrovascular conditions. The discussions highlight the procedure's ability to significantly improve stenosis and achieve successful reperfusion in patients, positioning it as an effective medical intervention. These positive medical results are the main factors contributing to its very positive assessment.\n\n**Direct Answer:**\nBased on the analyzed discussions, the overall sentiment regarding \"tenzingplasty\" is overwhelmingly positive, reflecting its perceived effectiveness as a specialized medical intervention. The procedure is viewed as a successful approach for improving critical cerebrovascular issues, showcasing promising clinical results in restoring blood flow.\n\n**Key Sentiment Drivers:**\n*   **Demonstrated Clinical Efficacy:** Tenzingplasty significantly improved stenosis, reducing it from 100% to 60% (P<0.0001), and achieved successful final reperfusion in cases of acute ischemic stroke, underscoring its effectiveness in critical neurological conditions [2].\n*   **Application in Severe Medical Conditions:** The procedure is utilized for cerebral vasospasm following subarachnoid hemorrhage and for acute ischemic stroke with underlying intracranial atherosclerotic disease, indicating its importance for complex and serious health issues [1, 2].\n*   **Advanced Procedural Nature:** Descriptions detail Tenzingplasty as an advanced procedure involving a specialized Tenzing device advanced over a microwire under fluoroscopic guidance, suggesting a precise and sophisticated solution [1].\n\n**Contradicting Views:**\nBased on the provided Reddit discussions, there are no explicit contradicting views or dissenting opinions regarding the \"tenzingplasty\" medical procedure itself. The available content focuses on technical descriptions and positive clinical outcomes, without presenting criticisms or skeptical perspectives from users or authors.",
+          "timestamp": "2026-01-06T23:15:37.998025"
+        }
+      ],
+      "sources": [
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "Tenzingplasty for Cerebral Vasospasm Following Subarachnoid...",
+          "url": "https://www.medrxiv.org/content/10.1101/2025.05.12.25327468v2.full.pdf",
+          "subreddit": "unknown",
+          "upvotes": 0,
+          "content": "compared to baseline segment diameter. Tenzingplasty Procedural Details Tenzingplasty was performed by advancing the Tenzing device over a 0.014\u201d microwire under fluoroscopic guidance. Intravenous heparin was administered in most cases, seeking to double baseline activated clotting time. The Tenzing device size was chosen at the discretion of the operator, selecting the device with OD that would best approximate but not exceed the normal segment diameter on premorbid angiography. Choice of [...] Tenzingplasty treatment effect can be achieved on all segments through which a Tenzing device is passed, whereas balloon PTA, Comaneci, or NeVa treatment effect can only be achieved at sites where the device is inflated or deployed. Tenzingplasty can achieve its result with a single pass through affected vessels, whereas angioplasty carries a risk for complications with each inflation of a balloon, which must often be performed on multiple segments to achieve adequate results due to shorter [..",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        },
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "Intracranial Dotter angioplasty using Tenzing ( Tenzingplasty ) for...",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40579153/",
+          "subreddit": "unknown",
+          "upvotes": 0,
+          "content": "# Intracranial Dotter angioplasty using Tenzing (Tenzingplasty) for acute ischemic stroke with underlying intracranial atherosclerotic disease\n\n### Authors\n\n### Affiliations\n\n## Abstract [...] median 1 (IQR 1-2) Tenzingplasty pass, median (IQR) stenosis improved from 100% (95-100) to 60% (42-76) post-Tenzingplasty (P<0.0001). Subsequent balloon angioplasty or stenting was performed in 4% and 21%, respectively. Successful final reperfusion (expanded Thrombolysis in Cerebral Infarction 2b-3) was achieved in 81%, with one Tenzingplasty-related complication (a non-flow limiting dissection), and no perforations. In follow up, 25/44 (57%) had a 90-day modified Rankin Scale score of 0-2. [...] We identified 53 consecutive patients with symptomatic ICAD who underwent Tenzingplasty, median (IQR) age 63 (57-70) years, 29 (55%) male. ICAD locations were: M1 (24), M2 (9), internal carotid artery (3), vertebral V4 segment (7), basilar (8), vertebrobasilar junction (1), and A2 anterior cerebral arte",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        },
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "Tenzing, anybody tried this as well? : r/energydrinks - Reddit",
+          "url": "https://www.reddit.com/r/energydrinks/comments/lomusl/tenzing_anybody_tried_this_as_well/",
+          "subreddit": "energydrinks",
+          "upvotes": 0,
+          "content": "r/energydrinks icon\nr/energydrinks icon\n\ndiscord.gg/energydrinks\n\n# Tenzing, anybody tried this as well?\n\nr/energydrinks - NSPIRED BY A TRADITIONAL HIMALAYAN SHERPA RECOPE TENZING ATURAL ENER PURELY FROM PLANTS Original Recipe ERGY\nr/energydrinks - NSPIRED BY A TRADITIONAL HIMALAYAN SHERPA RECOPE TENZING ATURAL ENER PURELY FROM PLANTS Original Recipe ERGY\n\n# Related Answers Section [...] Red Sour Patch Kid: \"I highly recommend ghost. Most of their flavors are good, but I specifically love the red sour patch kid one\"\n\nSwedish Fish: \"Swedish fish gang checking in!\"\n\nWarheads Sour Green Apple: \"Ghost Warheads Sour Green apple.\"\n\nWatermelon: \"Ghost watermelon, green apple, and Swedish fish\"\n\n### Celsius\n\nCelsius is noted for its effectiveness and some popular flavors:\n\nRaspberry Peach: \"Raspberry peach regular Celsius (Amazon + Circle K)\" [...] Kiwi Apple: \"Kiwi apple Celsius, had to stop drinking them because they were too good.\"\n\nCreate your account and connect with a world of communitie",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        },
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "\u3010\u60c5\u5831\u3011XGPU Xbox Cloud Gaming \u7248\u672c\u904a\u73a9\u4ecb\u7d39 \u66a8\u4e2d\u6587\u904a\u6232\u5217\u8868",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60646&snA=3527",
+          "subreddit": "unknown",
+          "upvotes": 0,
+          "content": "Haven\u7c21\u9ad4\u4e2d\u6587\n\nHITMAN Trilogy\u7e41\u9ad4\u4e2d\u6587\u65e5\u5340\u4e0d\u80fd\u73a9\n\nHello Neighbor\u7e41\u9ad4\u4e2d\u6587\n\nHollow Knight: Voidheart Edition\u7c21\u9ad4\u4e2d\u6587\n\nI Am Fish\u7e41\u9ad4\u4e2d\u6587\n\nInfernax\n\nInto the Pit\u7c21\u9ad4\u4e2d\u6587\n\nKill It With Fire\u7c21\u9ad4\u4e2d\u6587\n\nLast Stop\u7e41\u9ad4\u4e2d\u6587\n\nLawn Mowing Simulator\u7e41\u9ad4\u4e2d\u6587\n\nLethal League Blaze\u7e41\u9ad4\u4e2d\u6587\n\nLibrary Of Ruina\u7e41\u9ad4\u4e2d\u6587\n\nLonely Mountains: Downhill\u7c21\u9ad4\u4e2d\u6587\n\nMarvel's Avengers\u7e41\u9ad4\u4e2d\u6587\n\nMarvel\u2019s Guardians of the Galaxy\u7e41\u9ad4\u4e2d\u6587\n\nMiddle-earth\u2122: Shadow of War\u2122\u7e41\u9ad4\u4e2d\u6587\n\nMonster Train\u7c21\u9ad4\u4e2d\u6587\n\nMoonglow Bay\u7c21\u9ad4\u4e2d\u6587\n\nMoonlighter\u7e41\u9ad4\u4e2d\u6587\n\nMorkredd\u7c21\u9ad4\u4e2d\u6587\n\nMy Friend Pedro\u7e41\u9ad4\u4e2d\u6587\n\nMyst\u7c21\u9ad4\u4e2d\u6587\n\nNeon Abyss\u7e41\u9ad4\u4e2d\u6587 [...] Record of Lodoss War-Deedlit in Wonder Labyrinth-\u7e41\u9ad4\u4e2d\u6587\n\nRing of Pain\u7e41\u9ad4\u4e2d\u6587\n\nSable\u7c21\u9ad4\u4e2d\u6587\n\nSecret Neighbor\u7c21\u9ad4\u4e2d\u6587\n\nSkateBIRD\u7e41\u9ad4\u4e2d\u6587\n\nSkul: The Hero Slayer\u7e41\u9ad4\u4e2d\u6587\n\nSlime Rancher\u7c21\u9ad4\u4e2d\u6587\n\nSnowRunner\u7e41\u9ad4\u4e2d\u6587\n\nSpace Warlord Organ Trading Simulator\u7e41\u9ad4\u4e2d\u6587\n\nSpelunky 2\u7e41\u9ad4\u4e2d\u6587\n\nSpiritfarer\u00ae: Farewell Edition\u7e41\u9ad4\u4e2d\u6587\n\nStardew Valley\u7c21\u9ad4\u4e2d\u6587\n\nStreets of Rage 4\u7e41\u9ad4\u4e2d\u6587\n\nSubnautica\u7c21\u9ad4\u4e2d\u6587\n\nSubnautica: Below Zero\u7c21\u9ad4\u4e2d\u6587\n\nSuperliminal\u7e41\u9ad4\u4e2d\u6587\n\nSurgeon Simulator 2\u7e41\u9ad4\u4e2d\u6587\n\nTRANSFORMERS: BATTLEGROUNDS\u7c21\u9ad4\u4e2d\u6587\n\nThe Anacrusis (Game Preview)\u7e41\u9ad4\u4e2d\u6587\n\nThe Artful Escape\u7e41\u9ad4\u4e2d\u6587 [...] D",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        },
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "Has anybody tried this : r/energydrinks - Reddit",
+          "url": "https://www.reddit.com/r/energydrinks/comments/13ld2av/has_anybody_tried_this/",
+          "subreddit": "energydrinks",
+          "upvotes": 0,
+          "content": "Red Sour Patch Kid: \"I highly recommend ghost. Most of their flavors are good, but I specifically love the red sour patch kid one\"\n\nSwedish Fish: \"Swedish fish gang checking in!\"\n\nWarheads Sour Green Apple: \"Ghost Warheads Sour Green apple.\"\n\nWatermelon: \"Ghost watermelon, green apple, and Swedish fish\"\n\n### Celsius\n\nCelsius is noted for its effectiveness and some popular flavors:\n\nRaspberry Peach: \"Raspberry peach regular Celsius (Amazon + Circle K)\" [...] Kiwi Apple: \"Kiwi apple Celsius, had to stop drinking them because they were too good.\"\n\nCreate your account and connect with a world of communities.\n\nAnyone can view, post, and comment to this community\n\n## Top Posts [...] r/energydrinks icon\nr/energydrinks icon\n\ndiscord.gg/energydrinks\n\n# Has anybody tried this\n\nr/energydrinks - Has anybody tried this\nr/energydrinks - Has anybody tried this\n\n# Related Answers Section",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        },
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "\u3010\u60c5\u5831\u3011\u5fae\u8edf\u6b63\u5f0f\u555f\u52d5XGPU\u8a02\u95b1\u7528\u6236\u65bciOS\u3001PC\u4e4b\u96f2\u7aef\u904a\u6232Cloud Gaming\u700f...",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60646&snA=1661",
+          "subreddit": "unknown",
+          "upvotes": 0,
+          "content": "LV. 22\n\nGP 55\n\n9 \u6a13 NowayAsk\u4e43 a121557860\n\nGP0 BP-\n\n2022-01-02 02:57:47 \ue32c\n\n\u8acb\u554f\u4e00\u4e0b\u6211\u7167\u8457\u6b65\u9a5f\u5207\u63db\u53f0\u7063\u5f8c  \n\u5c31\u8dd1\u5230\u53f0\u7063\u7684\u5fae\u8edf\u5b98\u7db2\u4e86  \n\u6c92\u8fa6\u6cd5\u7528\u4e2d\u6587\u904a\u73a9\u22ef\n\n0\n\n-\n\n\ue313 \u9084\u6709 1 \u5247\u7559\u8a00  \u6392\u5e8f\uff1a\u7531\u820a\u5230\u65b0  \ue316 \u6536\u5408\u7559\u8a00 \n\n\u986f\u793a\u820a\u7559\u8a00\n\nZakof\n\n\u53f0\u7063\u5340\u7684\u66ab\u6642\u5df2\u7d93\u88ab\u64cb\u6389\u4e86\n\nB2\n\n2022-01-02 11:30:18\n\ncopo\n\n\u662f\u7684 \u76ee\u524d\u6c92\u8fa6\u6cd5\u9078\u4e2d\u6587\n\nB3\n\n2022-01-02 18:24:21\n\ncopo\n\n\u4e0d\u904e\u7b2c\u4e09\u65b9\u904a\u6232\u901a\u5e38\u6703\u5728\u9078\u55ae\u53ef\u4ee5\u6539\u8a9e\u8a00\n\nB4\n\n2022-01-02 18:24:32\n\n1\n\nNowayAsk\u4e43\n\n[k68452633:copo] \u4eba\u4e2d\u4e4b\u9f8d\u7cfb\u5217\u53ef\u4ee5\u55ce\n\nB5\n\n2022-01-02 21:10:38\n\ncopo\n\n[a121557860:NowayAsk\u4e43]\u4f60\u9032\u904a\u6232\u9078\u55ae\u770b\u770b \u6211\u8a18\u5f97\u6700\u65b0\u7684\u53ef\u4ee5\u4e2d\u6587\n\nB6\n\n2022-01-02 21:32:12\n\nLV. 14\n\nGP 0\n\n10 \u6a13 \u85cd\u9706 sunsam770823\n\nGP2 BP- [...] LV. 39\n\nGP 557\n\n12 \u6a13 \u8133\u5f31\u9bca\u9bca wongricky120\n\nGP0 BP-\n\n2022-07-24 04:51:51 \u7de8\u8f2f \ue32c\n\n\u756b\u9762\u537b\u6c92\u6210\u529f\u8b80\u5230\u6211\u7684xbox series\u624b\u628a\n\n\u53ef\u662f\u6211\u958bsteam link \u90a3\u500b\u6e2c\u8a66\u624b\u628a\u6642\u80fd\u6b63\u5e38\u904b\u4f5c\n\n\u8acb\u554f\u6709\u9700\u8981\u66f4\u65b0iPad \u9084\u662f\u8981\u6709\u4ec0\u9ebc\u7279\u5225\u8a2d\u5b9a\u55ce\n\niPadOS 15.4.1\n\niPad Air 4\n\n0\n\n-\n\n\u8000\u6b66\u63da\u5a01\n\nB1\n\n2022-07-24 06:35:02\n\nFlewMaple\n\nB2\n\n2022-07-26 13:38:07 \u7de8\u8f2f\n\nFlewMaple\n\nB3\n\n2022-07-26 13:39:49 \u7de8\u8f2f\n\n\u8133\u5f31\u9bca\u9bca\n\n\u6211\u6c92\u770b\u5230\u6709\u4efb\u4f55\u6e38\u6a19 \u6211\u53ea\u6253\u958bsteam link\u6e2c\u8a66\u6309\u9215\u90a3\u4e9b\uff0c\u662f\u6709\u53cd\u61c9\u7684\u3002\u53e6\u5916\u9577\u6309Xbox\u5716\u6a19\u90a3\u9375\u6703\u6709\u8df3\u51fa\u684c\u9762\u9078\u64c7app\u7684\u756b\u9762\n\nB4\n\n2022-07-26 17:01:29\n\n\u4e2d\n\n \u7279\u5927\n \u5f88\u5927\n \u5927\n \u4e2d\n \u5c0f\n\n\u5b57\u7d1a\n\n\u672a\u767b\u5165\u7684\u52c7\u8005\uff0c\u8981\u52a0\u5165 13 \u6a13\u7684\u8a0e\u8ad6\u55ce\uff1f\n\n### \u5ef6\u4f38\u95b1\u8b80\n\n\u5fae\u8edf\u5ba3\u5e03\u8207\u65e5\u672c\u96f2\u7aef\u904a\u6232\u670d\u52d9\u89e3\u6c7a\u65b9\u6848\u63d0\u4f9b\u5546 \u512a\u5fc5\u9054 Ubitus \u9054\u6210\u5341\u5e74\u5408\u4f5c\u5354\u8b70 [...] 2022-07-24 19:",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        },
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "\u3010\u653b\u7565\u3011 \u514dVPN \u591a\u5e73\u53f0 Xbox Cloud Gaming | xCloud | Xbox\u96f2\u7aef\u904a\u6232 ...",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60646&snA=5009",
+          "subreddit": "unknown",
+          "upvotes": 0,
+          "content": "|  |  |\n --- |\n| |  |  |  | |\n\n|  |\n\n|  |\n\n|  |  |\n --- |\n| |  |  |  | |\n\n\ue313\n\ue5c9\n\n \u627e\u6a19\u984c\u67e5\u8a62\u6a19\u984c\u76f8\u7b26\u7684\u6587\u7ae0\n \u627e\u4f5c\u8005\u67e5\u8a62\u4f5c\u8005\u76f8\u7b26\u7684\u6587\u7ae0\n \u627eM\u6587\u67e5\u8a62\u88ab MARK \u7684\u6587\u7ae0\n \u627e\u5168\u6587\u641c\u5c0b\u672c\u677f\u6587\u7ae0\u3001\u4f5c\u8005\n\n|  |  |\n --- |\n| |  |  |  | |\n\n|  |\n\n|  |\n\n123\n\n# \u3010\u653b\u7565\u3011 \u514dVPN \u591a\u5e73\u53f0 Xbox Cloud Gaming | xCloud | Xbox\u96f2\u7aef\u904a\u6232 \u904a\u73a9\n\n### \u5ef6\u4f38\u95b1\u8b80\n\nXCloud\u8207GeForce Now\u96f2\u7aef\u904a\u73a9\u96dc\u8ac7\u8207\u554f\u984c\n\n\u300aSteel Duel Tanks: Multiplayer Tank Combat\u300b\n\nXbox \u6b63\u5f0f\u958b\u653e\u4e3b\u6a5f\u96f2\u7aef\u904a\u6232\u7d66\u6240\u6709\u7528\u6236\n\n\u624b\u6a5fxbox cloud gaming \u96f2\u7aef\u904a\u6232\u8a66\u7528\n\nXbox\u6700\u65b0\u4e00\u671fPodcast\uff0c\u8a0e\u8ad6ROG Xbox Ally\u3001Game Pass\u3001XPA\u3001\u96f2\u7aef\u904a\u73a9\u4e32\u6d41\u670d\u52d9\u7b49\u66f4\u591a\n\n\u52c7\u8005\u9b25\u60e1\u9f8d VII Reimagined Demo\u7248 \u4e0a\u67b6\uff0c\n\n2026\u5e741\u67086\u65e5\u65b0\u589eXbox Game Paa\u904a\u6232\u3001\u60e1 [...] 2025\u5e74\u5fae\u8edf\u672c\u5bb6\u904a\u6232\u5de5\u4f5c\u5ba4\u56de\u9867\u5fc3\u5f97\n\n123\n\n# \u3010\u653b\u7565\u3011 \u514dVPN \u591a\u5e73\u53f0 Xbox Cloud Gaming | xCloud | Xbox\u96f2\u7aef\u904a\u6232 \u904a\u73a9\n\n### \n\n\u672c\u7ad9\u6240\u520a\u8f09\u4e4b\u5716\u6587\u5167\u5bb9\u7b49\u7248\u6b0a\u7686\u5c6c\u539f\u5ee0\u5546\u6216\u539f\u4f5c\u8005\u6240\u6709\uff0c\u975e\u7d93\u540c\u610f\u8acb\u52ff\u8f49\u8f09  \n\u5df4 \u54c8 \u59c6 \u7279 \u96fb \u73a9 \u8cc7 \u8a0a \u7ad9",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        },
+        {
+          "id": "5b900220-333a-48bd-ba3e-78acb0c326a6",
+          "title": "\u3010\u5fc3\u5f97\u3011Steam Deck | \u53f0\u7063\u4e5f\u80fd\u514dVPN\u904a\u73a9Xbox Cloud Gaming \u7684\u65b9\u6cd5",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60599&snA=39815",
+          "subreddit": "unknown",
+          "upvotes": 0,
+          "content": "\u8ddf\u8457\u505a\u51fa\u9019\u500b\u756b\u9762\uff0c\u662f\u4e0d\u662f\u6709\u6b65\u9a5f\u505a\u932f\u5497\uff1f\n\n1\n\n-\n\n\ue313 \u9084\u6709 6 \u5247\u7559\u8a00  \u6392\u5e8f\uff1a\u7531\u820a\u5230\u65b0  \ue316 \u6536\u5408\u7559\u8a00 \n\n\u986f\u793a\u820a\u7559\u8a00\n\nFlewMaple\n\n\u6ce8\u610f\u5230\u5fae\u8edf\u7684\u6559\u5b78\u6c92\u5beb\u5230\uff0c\u4e0d\u662f\u4f60\u7684\u932f\n\nB8\n\n2023-01-12 23:39:32\n\nangelmic\n\n\u78ba\u5b9a\u7a7a\u683c\u90fd\u5c0d\u4f46\u662f\u9084\u662f\u7a7a\u767d\u756b\u9762 0rz.\n\nB9\n\n2024-02-22 18:19:49\n\nangelmic\n\n\u8a2d\u5b9a\u5982\u4e0b: \"@@u\" \"@@\" --window-size=1024,640 --force-device-scale-factor=1.25 --device-scale-factor=1. 25 --kiosk \"\n\nB10\n\n2024-02-22 18:30:00\n\nangelmic\n\n\u524d\u9762\u592a\u9577\u7701\u7565\n\nB11\n\n2024-02-22 18:30:15\n\nangelmic\n\n\u76ee\u524d xbplay \u6e2c\u8a66\u6210\u529f\u4e2d 0rz.. (\u82b1\u9322\u7121\u8166)\n\nB12\n\n2024-02-22 18:48:51\n\nLV. 33\n\nGP 0\n\n4 \u6a13 wai1005 yetfat1005\n\nGP0 BP- [...] 5 \u6a13 \u963f\u5eff grace1378f\n\nGP0 BP-\n\n2024-02-16 05:52:57 \ue32c\n\n\u8acb\u554f\u6709\u6c92\u6709\u4eba\u9047\u5230\u5fae\u8edf\u5e33\u865f\u4e00\u76f4\u88ab\u767b\u51fa\u7684\u72c0\u6cc1\uff1f  \n\u5927\u6982\u9694\u4e00\u5929\u5c31\u8981\u91cd\u65b0\u767b\u5165\uff0c\u800c\u4e14\u9084\u6c92\u6709\u7d00\u9304\uff0c\u90fd\u8981\u91cd\u6253\u5e33\u865f\uff0c\u6709\u4ec0\u9ebc\u89e3\u6c7a\u8fa6\u6cd5\u55ce\uff1f\n\n0\n\n-\n\n\ue313 \u9084\u6709 5 \u5247\u7559\u8a00  \u6392\u5e8f\uff1a\u7531\u820a\u5230\u65b0  \ue316 \u6536\u5408\u7559\u8a00 \n\n\u986f\u793a\u820a\u7559\u8a00\n\n\u963f\u5eff\n\n\u6211\u5f8c\u4f86\u628aXBplay\u91cd\u8a2d\u4e4b\u5f8c\uff0c\u6709\u8df3\u51fa\u4e00\u500b\u8996\u7a97\u8aaa\u660e\u5982\u4f55\u89e3\u6c7a\u76f8\u5bb9\u6027\u554f\u984c\u3002\u53ef\u4ee5\u53bbXBPLAY\u7684\u5546\u5e97\u9801\uff0c\u9078\u64c7\u300c\u5167\u5bb9>\u76f8\u5bb9\u6027\u300d\u628a\u52fe\u52fe\u52fe\u8d77\u4f86\uff0c\u4e0b\u9762\u9078\u64c7linux runtime\u5c31\u53ef\u4ee5\u4e86\u3002\u53ef\u4ee5\u8a66\u8a66\u770b\n\nB6\n\n2024-02-29 11:09:31 \u7de8\u8f2f\n\n1\n\n\u963f\u5eff\n\nB7\n\n2024-02-29 11:10:15\n\n--+\n\n#B7:3579458# \u597d \u6211\u8a66\u8a66\n\nB8\n\n2024-02-29 11:11:09\n\n--+\n\n\u627e\u4e0d\u5230 \u76f8\u5bb9\u6027\n\nB9\n\n2024-02-29 11:55:35\n\nStargazers\n\n\u6211\u684c\u9762\u6a21\u5f0f\u53ef\u4ee5\u767b\u9678\u4f7f\u7528 \u70ba\u4ec0\u9ebc\u904a\u6232\u6a21\u5f0f\u6253\u958b\u756b\u9762\u5168\u767d\uff1f\n\nB10\n\n2024-07-28 21:11:17 \u7de8\u8f2f\n\n\u4e2d\n\n \u7279\u5927\n \u5f88\u5927\n \u5927\n \u4e2d\n \u5c0f\n\n\u5b57\u7d1a [...] \u672c\u7ad9\u6240\u520a\u8f09\u4e4b\u5716\u6587\u5167\u5bb9\u7b49\u7248\u6b0a",
+          "timestamp": "2026-01-06T23:15:37.998536"
+        }
+      ],
+      "created_at": "2026-01-06T23:15:37.999027",
+      "updated_at": "2026-01-06T23:36:50.089600",
+      "subreddit_filter": null
+    },
+    {
+      "id": "ef624fb4-0dad-4911-8cff-1c7740bc15b1",
+      "title": "stranger things season 5",
+      "messages": [
+        {
+          "id": "e39ed7c1-5dc5-46c0-952a-fe57ce3bc9f1",
+          "role": "user",
+          "content": "stranger things season 5",
+          "timestamp": "2026-01-07T17:37:47.504773"
+        },
+        {
+          "id": "e39ed7c1-5dc5-46c0-952a-fe57ce3bc9f1",
+          "role": "user",
+          "content": "stranger things season 5",
+          "timestamp": "2026-01-07T17:37:47.504773"
+        },
+        {
+          "id": "e39ed7c1-5dc5-46c0-952a-fe57ce3bc9f1",
+          "role": "assistant",
+          "content": "**Sentiment Explanation:**\nThe 35.0/100 (Negative) sentiment score is primarily driven by widespread dissatisfaction with the writing quality of \"Stranger Things Season 5,\" particularly concerning perceived plot holes and a general sense that the narrative has lost its direction. Fans express significant disappointment over the Duffer brothers' creative choices, leading to a negative assessment of the season's execution.\n\n**Direct Answer:**\nOverall, Reddit discussions indicate a predominantly negative sentiment towards \"Stranger Things Season 5,\" with users expressing significant concerns about the narrative's quality. Many feel that the writing has faltered, leading to numerous plot holes and a decline in the series' overall appeal compared to previous seasons.\n\n**Key Sentiment Drivers:**\n*   **Loss of Plot and Direction:** Users perceive that the writers have \"lost the plot\" for Season 5, especially in Volume 2, indicating a decline in narrative coherence [1].\n*   **Extensive Plot Holes:** The finale is heavily criticized for containing \"so many plot holes, it's unreal,\" which undermines the story's credibility [5].\n*   **Reluctance to Kill Main Characters:** Frustration exists over the creators' \"refuse to kill the main cast,\" which some believe diminishes stakes and makes the narrative feel less impactful [1].\n*   **Perceived Decline in Overall Quality:** Many consider Season 5 (even Volume 1) to be the \"worst season of stranger things\" and believe it \"doesn't even come close to the 4th season,\" highlighting a drop in enjoyment [6].\n\n**Contradicting Views:**\n*   **Unique Production Achievement:** The production is praised for a rare feat where \"every actor filmed their final scene on their actual\" last day, indicating a well-managed and respectful production process [2].\n*   **High Anticipation for Release:** Despite criticisms, there is significant anticipation for the season's release, with some calling it \"literally the only thing I was looking forward to this year,\" and speculation around specific dates like November 6th or Christmas Day [3, 4, 7].\n*   **Innovative Release Strategy:** The theatrical release of the finale on December 31st is noted as a \"significant part of this shift,\" suggesting a unique and ambitious approach to distribution [8].",
+          "timestamp": "2026-01-07T17:37:47.504773"
+        }
+      ],
+      "sources": [
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "Stranger things Season 5 Volume 2 feels like writers lost the plot.",
+          "url": "https://www.reddit.com/r/StrangerThings/comments/1pwaz2u/stranger_things_season_5_volume_2_feels_like/",
+          "subreddit": "StrangerThings",
+          "upvotes": 0,
+          "content": "But because of the Duffers ' need to comment and confirm the status of characters or how they refuse to kill the main cast, it's hard to stay",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        },
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "'Stranger Things 5': An Oral History of the Cast's Last Day on Set",
+          "url": "https://www.reddit.com/r/HawkinsAVclub/comments/1owam58/stranger_things_5_an_oral_history_of_the_casts/",
+          "subreddit": "HawkinsAVclub",
+          "upvotes": 0,
+          "content": "According to Matt Duffer, the Stranger Things team pulled off something rare for Season 5 \u2014 every actor filmed their final scene on their actual",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        },
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "Potential release date for Stranger Things Season 5 ...",
+          "url": "https://www.reddit.com/r/HawkinsAVclub/comments/1i7cafe/potential_release_date_for_stranger_things_season/",
+          "subreddit": "HawkinsAVclub",
+          "upvotes": 0,
+          "content": "S5 is definitely expected to release at the end of this year. November 6th is also on a Thursday if they decide to do that.",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        },
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "Stranger Things Release Dates : r/StrangerThings",
+          "url": "https://www.reddit.com/r/StrangerThings/comments/1p058pt/stranger_things_release_dates/",
+          "subreddit": "StrangerThings",
+          "upvotes": 0,
+          "content": "\u2022 13d ago. Hopefully, the last episodes of Stranger Things Season 5 will be premiered tonight on Christmas Day. brettalmur18. \u2022 2mo ago.",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        },
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "Stranger Things S5 Finale Has So Many Plot Holes, It's Unreal - Reddit",
+          "url": "https://www.reddit.com/r/StrangerThings/comments/1q13bvd/stranger_things_s5_finale_has_so_many_plot_holes/",
+          "subreddit": "StrangerThings",
+          "upvotes": 0,
+          "content": "The disappearance of a young boy sparks a chain of events leading the residents of the small town of Hawkins to uncover a government conspiracy",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        },
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "Forget Volume 2, anyone else think Season 5 Volume 1 was peak ...",
+          "url": "https://www.reddit.com/r/StrangerThings/comments/1q3noa6/forget_volume_2_anyone_else_think_season_5_volume/",
+          "subreddit": "StrangerThings",
+          "upvotes": 0,
+          "content": "It was a good season of TV and I enjoyed it but it was the worst season of stranger things. It doesn't even come close to the 4th season. I",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        },
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "Stranger Things 5 volume 2 release times around the World.",
+          "url": "https://www.reddit.com/r/StrangerThings/comments/1pvdhba/stranger_things_5_volume_2_release_times_around/",
+          "subreddit": "StrangerThings",
+          "upvotes": 0,
+          "content": "There's no family gathering and Stranger Things is literally the only thing I was looking forward to this year. But the episodes releasing at 8",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        },
+        {
+          "id": "5db276d9-33ac-4c21-a4da-75d38e3bbce9",
+          "title": "The Stranger Things Season 5 release strategy is ...",
+          "url": "https://www.reddit.com/r/television/comments/1pr8jjl/the_stranger_things_season_5_release_strategy_is/",
+          "subreddit": "television",
+          "upvotes": 0,
+          "content": "The most significant part of this shift is the theatrical release of the finale on December 31. Releasing a two hour episode in over 500",
+          "timestamp": "2026-01-07T17:37:47.505254"
+        }
+      ],
+      "created_at": "2026-01-07T17:37:47.505745",
+      "updated_at": "2026-01-07T17:38:31.886901",
+      "subreddit_filter": null
+    }
+  ]
+}
