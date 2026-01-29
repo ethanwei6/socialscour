@@ -162,8 +162,10 @@ async def stream_research(chat_id: str, request: QueryRequest):
     if not chat:
         raise HTTPException(status_code=404, detail="Chat not found")
     
-    # Add user message to chat
-    storage_service.add_message(chat_id, "user", request.query)
+    # Add user message to chat only if it's not already the last message
+    # This prevents duplicate messages when a new chat is created (which already adds the message)
+    if not chat.messages or chat.messages[-1].content != request.query or chat.messages[-1].role != "user":
+        storage_service.add_message(chat_id, "user", request.query)
     
     return StreamingResponse(
         generate_research_stream(chat_id, request.query, request.subreddit_filter),

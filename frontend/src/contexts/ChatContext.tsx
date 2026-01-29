@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useCallback, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useCallback, ReactNode, useEffect, useRef, startTransition } from 'react';
 import { ChatContextType, Chat, Message, Source, SentimentAnalysis } from '../types';
 
 const ChatContext = createContext<ChatContextType | undefined>(undefined);
@@ -22,6 +22,13 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
   const [isStreaming, setIsStreaming] = useState(false);
   const [currentSentiment, setCurrentSentiment] = useState<SentimentAnalysis | null>(null);
   const [streamingContent, setStreamingContent] = useState('');
+  
+  // Refs to track streaming state that persists across tab switches
+  const readerRef = useRef<ReadableStreamDefaultReader<Uint8Array> | null>(null);
+  const abortControllerRef = useRef<AbortController | null>(null);
+  const currentChatIdRef = useRef<string | null>(null);
+  const accumulatedContentRef = useRef<string>('');
+  const isStreamingRef = useRef<boolean>(false);
 
   // Load all chats from backend
   const loadChats = useCallback(async () => {
@@ -64,27 +71,97 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
     }
   }, []);
 
+  // Cleanup function to abort ongoing streams
+  const cleanupStream = useCallback(() => {
+    if (readerRef.current) {
+      readerRef.current.cancel().catch(() => {});
+      readerRef.current = null;
+    }
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+      abortControllerRef.current = null;
+    }
+    isStreamingRef.current = false;
+  }, []);
+
+  // Handle tab visibility changes - restore state when tab becomes visible
+  useEffect(() => {
+    const handleVisibilityChange = async () => {
+      if (document.visibilityState === 'visible' && isStreamingRef.current && currentChatIdRef.current) {
+        // Tab became visible again - check if streaming completed while away
+        try {
+          const response = await fetch(`/api/chats/${currentChatIdRef.current}`);
+          if (response.ok) {
+            const updatedChat = await response.json();
+            // Check if there's a new assistant message that wasn't in our state
+            const lastMessage = updatedChat.messages[updatedChat.messages.length - 1];
+            if (lastMessage && lastMessage.role === 'assistant') {
+              // Streaming completed while tab was away
+              setActiveChat(updatedChat);
+              setChats(prev => prev.map(c => c.id === currentChatIdRef.current ? updatedChat : c));
+              setIsStreaming(false);
+              setIsLoading(false);
+              setStreamingContent('');
+              isStreamingRef.current = false;
+              currentChatIdRef.current = null;
+            }
+          }
+        } catch (error) {
+          console.error('Error checking chat status:', error);
+        }
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      cleanupStream();
+    };
+  }, [cleanupStream]);
+
   // Send query and handle streaming response
   const sendQuery = useCallback(async (query: string, chatId?: string, subreddit_filter?: string) => {
-    setIsLoading(true);
-    setIsStreaming(true);
-    setStreamingContent('');
-    setCurrentSentiment(null);
+    // Cleanup any existing stream
+    cleanupStream();
+
+    // Use startTransition for initial state updates to keep UI responsive
+    startTransition(() => {
+      setIsLoading(true);
+      setIsStreaming(true);
+      setStreamingContent('');
+      setCurrentSentiment(null);
+    });
+    
+    accumulatedContentRef.current = '';
+    isStreamingRef.current = true;
 
     let currentChatId = chatId;
     
-    // Create new chat if no chatId provided
+    // Create new chat if no chatId provided - yield after this to keep UI responsive
     if (!currentChatId) {
       const newChat = await createChat(query, subreddit_filter);
       if (newChat) {
         currentChatId = newChat.id;
+        // Yield to browser before setting active chat
+        await new Promise(resolve => setTimeout(resolve, 0));
         setActiveChat(newChat);
       } else {
         setIsLoading(false);
         setIsStreaming(false);
+        isStreamingRef.current = false;
         return;
       }
     }
+
+    currentChatIdRef.current = currentChatId;
+    const abortController = new AbortController();
+    abortControllerRef.current = abortController;
 
     try {
       const requestBody: any = {
@@ -98,6 +175,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(requestBody),
+        signal: abortController.signal,
       });
 
       if (!response.ok) {
@@ -109,13 +187,61 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
         throw new Error('No response body');
       }
 
+      readerRef.current = reader;
       const decoder = new TextDecoder();
       let buffer = '';
-      let accumulatedContent = '';
+      let pendingUpdates: string[] = [];
+      let lastUpdateTime = Date.now();
+      const BATCH_INTERVAL = 50; // Update UI every 50ms max
+      const MAX_BATCH_SIZE = 10; // Process max 10 chunks before yielding
+
+      // Helper function to yield control to browser
+      const yieldToBrowser = () => {
+        return new Promise<void>(resolve => {
+          // Use setTimeout with 0 delay to yield to event loop
+          setTimeout(resolve, 0);
+        });
+      };
+
+      // Process pending updates in batches
+      const processPendingUpdates = () => {
+        if (pendingUpdates.length === 0) return;
+        
+        const batch = pendingUpdates.splice(0, MAX_BATCH_SIZE);
+        const combinedContent = batch.join('');
+        
+        // Use startTransition to mark these updates as non-urgent
+        startTransition(() => {
+          accumulatedContentRef.current += combinedContent;
+          setStreamingContent(prev => prev + combinedContent);
+        });
+      };
 
       while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
+        // Check if aborted
+        if (abortController.signal.aborted) {
+          break;
+        }
+
+        let result;
+        try {
+          result = await reader.read();
+        } catch (error: any) {
+          // Handle network errors gracefully - might happen when tab is inactive
+          if (error.name === 'AbortError' || error.name === 'NetworkError') {
+            // Stream was aborted or network error - try to recover by checking backend
+            console.log('Stream interrupted, checking backend for completion...');
+            break;
+          }
+          throw error;
+        }
+
+        const { done, value } = result;
+        if (done) {
+          // Process any remaining pending updates
+          processPendingUpdates();
+          break;
+        }
 
         buffer += decoder.decode(value, { stream: true });
         const lines = buffer.split('\n\n');
@@ -126,27 +252,37 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
             const data = line.slice(6);
             
             if (data === '[DONE]') {
+              // Process any remaining updates before finishing
+              processPendingUpdates();
+              
               setIsStreaming(false);
+              isStreamingRef.current = false;
+              
               // Save the accumulated streaming content as a message in the frontend state
-              // This ensures it persists even if the backend hasn't saved it yet
-              if (accumulatedContent.trim()) {
+              if (accumulatedContentRef.current.trim()) {
                 const tempMessage: Message = {
                   id: `temp-${Date.now()}`,
                   role: 'assistant',
-                  content: accumulatedContent,
+                  content: accumulatedContentRef.current,
                   timestamp: new Date(),
                 };
-                setChats(prev => prev.map(c => 
-                  c.id === currentChatId 
-                    ? { ...c, messages: [...c.messages, tempMessage] }
-                    : c
-                ));
-                if (activeChat?.id === currentChatId) {
-                  setActiveChat({
-                    ...activeChat,
-                    messages: [...activeChat.messages, tempMessage],
+                startTransition(() => {
+                  setChats(prev => prev.map(c => 
+                    c.id === currentChatId 
+                      ? { ...c, messages: [...c.messages, tempMessage] }
+                      : c
+                  ));
+                  // Update activeChat if it matches the current chat
+                  setActiveChat(prev => {
+                    if (prev?.id === currentChatId) {
+                      return {
+                        ...prev,
+                        messages: [...prev.messages, tempMessage],
+                      };
+                    }
+                    return prev;
                   });
-                }
+                });
               }
               continue;
             }
@@ -155,6 +291,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
             try {
               const parsed = JSON.parse(data);
               if (parsed.score !== undefined && parsed.label !== undefined) {
+                // Sentiment updates are important, update immediately
                 setCurrentSentiment(parsed);
                 continue;
               }
@@ -169,39 +306,89 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
             }
             content = content.replace(/\\n/g, '\n').replace(/\\"/g, '"');
             
-            // Accumulate content for saving
-            accumulatedContent += content;
-            setStreamingContent(prev => prev + content);
+            // Add to pending updates batch
+            pendingUpdates.push(content);
+            
+            // Process batch if we've accumulated enough or enough time has passed
+            const now = Date.now();
+            if (pendingUpdates.length >= MAX_BATCH_SIZE || (now - lastUpdateTime) >= BATCH_INTERVAL) {
+              processPendingUpdates();
+              lastUpdateTime = now;
+              // Yield to browser to allow React to render
+              await yieldToBrowser();
+            }
           }
         }
+        
+        // Yield periodically even if we haven't hit batch limits
+        // This ensures the UI stays responsive
+        await yieldToBrowser();
       }
 
+      // Cleanup reader
+      readerRef.current = null;
+      abortControllerRef.current = null;
+      currentChatIdRef.current = null;
+
+      // Yield to browser before doing final updates
+      await yieldToBrowser();
+
       // Refresh chats after streaming is complete to get updated sources
-      await loadChats();
-      
-      // Update activeChat with the latest data including sources
-      if (currentChatId) {
-        try {
-          const response = await fetch(`/api/chats/${currentChatId}`);
-          if (response.ok) {
-            const updatedChat = await response.json();
-            setActiveChat(updatedChat);
-            // Also update in chats list
-            setChats(prev => prev.map(c => c.id === currentChatId ? updatedChat : c));
-          }
-        } catch (error) {
-          console.error('Error fetching updated chat:', error);
+      // Do this in a non-blocking way
+      loadChats().then(() => {
+        // Update activeChat with the latest data including sources
+        if (currentChatId) {
+          fetch(`/api/chats/${currentChatId}`)
+            .then(response => {
+              if (response.ok) {
+                return response.json();
+              }
+              return null;
+            })
+            .then(updatedChat => {
+              if (updatedChat) {
+                startTransition(() => {
+                  setActiveChat(updatedChat);
+                  // Also update in chats list
+                  setChats(prev => prev.map(c => c.id === currentChatId ? updatedChat : c));
+                });
+              }
+            })
+            .catch(error => {
+              console.error('Error fetching updated chat:', error);
+            });
         }
-      }
+      });
       
-    } catch (error) {
-      console.error('Error sending query:', error);
-      setStreamingContent('Error: Failed to get response from server');
+    } catch (error: any) {
+      // Handle abort errors gracefully
+      if (error.name === 'AbortError') {
+        console.log('Stream was aborted');
+        // Try to fetch the latest state from backend
+        if (currentChatId) {
+          try {
+            const response = await fetch(`/api/chats/${currentChatId}`);
+            if (response.ok) {
+              const updatedChat = await response.json();
+              setActiveChat(updatedChat);
+              setChats(prev => prev.map(c => c.id === currentChatId ? updatedChat : c));
+            }
+          } catch (fetchError) {
+            console.error('Error fetching chat after abort:', fetchError);
+          }
+        }
+      } else {
+        console.error('Error sending query:', error);
+        setStreamingContent('Error: Failed to get response from server');
+      }
     } finally {
       setIsLoading(false);
       setIsStreaming(false);
+      isStreamingRef.current = false;
+      readerRef.current = null;
+      abortControllerRef.current = null;
     }
-  }, [createChat, loadChats]);
+  }, [createChat, loadChats, cleanupStream]);
 
   // Update chat title
   const updateChatTitle = useCallback(async (chatId: string, title: string) => {
@@ -251,6 +438,47 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
     setCurrentSentiment(null);
   }, []);
 
+  // Handle setting active chat - fetches latest data and clears streaming state
+  const handleSetActiveChat = useCallback(async (chat: Chat | null) => {
+    // Cleanup any ongoing streams when switching chats
+    if (isStreamingRef.current) {
+      cleanupStream();
+      setIsStreaming(false);
+      setIsLoading(false);
+    }
+    
+    // Immediately clear activeChat to prevent showing stale sources
+    setActiveChat(null);
+    
+    // Clear streaming content and sentiment when switching chats
+    setStreamingContent('');
+    setCurrentSentiment(null);
+    accumulatedContentRef.current = '';
+    
+    if (!chat) {
+      currentChatIdRef.current = null;
+      return;
+    }
+
+    // Fetch the latest chat data from backend to ensure we have correct sources
+    try {
+      const response = await fetch(`/api/chats/${chat.id}`);
+      if (response.ok) {
+        const updatedChat = await response.json();
+        setActiveChat(updatedChat);
+        // Also update in chats list to keep it in sync
+        setChats(prev => prev.map(c => c.id === chat.id ? updatedChat : c));
+      } else {
+        // If fetch fails, fall back to the chat object passed in
+        setActiveChat(chat);
+      }
+    } catch (error) {
+      console.error('Error fetching chat data:', error);
+      // If fetch fails, fall back to the chat object passed in
+      setActiveChat(chat);
+    }
+  }, [cleanupStream]);
+
   const contextValue: ChatContextType = {
     chats,
     activeChat,
@@ -260,7 +488,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
     streamingContent,
     loadChats,
     createChat,
-    setActiveChat,
+    setActiveChat: handleSetActiveChat,
     sendQuery,
     updateChatTitle,
     deleteChat,

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { cn } from '../lib/utils';
 import { useChat } from '../contexts/ChatContext';
 import { getSubredditIcon } from '../lib/utils';
@@ -6,9 +6,18 @@ import { ExternalLink, MessageSquare, TrendingUp } from 'lucide-react';
 
 const SourcePanel: React.FC = () => {
   const { activeChat } = useChat();
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
+  // Reset scroll position when switching chats
+  useEffect(() => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTop = 0;
+    }
+  }, [activeChat?.id]);
+
+  // Use activeChat.id as key to force re-render when switching chats
   return (
-    <div className="h-full flex flex-col bg-card">
+    <div key={activeChat?.id || 'no-chat'} className="h-full flex flex-col bg-card">
       {/* Header */}
       <div className="p-4 border-b border-border">
         <h2 className="text-lg font-semibold text-foreground">Sources & Intelligence</h2>
@@ -18,7 +27,7 @@ const SourcePanel: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="flex-1 overflow-y-auto custom-scrollbar">
+      <div ref={scrollContainerRef} className="flex-1 overflow-y-auto custom-scrollbar">
         {activeChat && activeChat.sources.length > 0 ? (
           <div className="p-4 space-y-4">
             {/* Source Cards */}

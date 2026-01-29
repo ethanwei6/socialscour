@@ -9,6 +9,62 @@ interface SummaryRendererProps {
 }
 
 const SummaryRenderer: React.FC<SummaryRendererProps> = ({ content, className }) => {
+  // Clean up markdown content to remove empty bullet points and extra blank lines
+  const cleanMarkdown = (text: string): string => {
+    const lines = text.split('\n');
+    const cleaned: string[] = [];
+    let inList = false;
+    
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const trimmed = line.trim();
+      
+      // Check if this is a list item
+      const isListItem = /^[\*\-\+]\s+/.test(trimmed);
+      
+      // Check if this is an empty list item (just bullet point with no content)
+      const isEmptyListItem = /^[\*\-\+]\s*$/.test(trimmed);
+      
+      if (isEmptyListItem) {
+        // Skip empty list items completely
+        continue;
+      }
+      
+      if (isListItem) {
+        // If we're starting a new list after non-list content, add a blank line
+        if (!inList && cleaned.length > 0 && cleaned[cleaned.length - 1].trim() !== '') {
+          cleaned.push('');
+        }
+        inList = true;
+        cleaned.push(line);
+      } else if (trimmed === '') {
+        // Skip blank lines that appear between list items
+        // Only keep blank lines if we're not in a list context
+        if (!inList && cleaned.length > 0 && cleaned[cleaned.length - 1].trim() !== '') {
+          cleaned.push('');
+        }
+        // Otherwise skip the blank line (it's between list items)
+      } else {
+        // Regular content line
+        // If we're leaving a list, add a blank line before non-list content
+        if (inList && cleaned.length > 0 && cleaned[cleaned.length - 1].trim() !== '') {
+          cleaned.push('');
+        }
+        inList = false;
+        cleaned.push(line);
+      }
+    }
+    
+    // Remove trailing blank lines
+    while (cleaned.length > 0 && cleaned[cleaned.length - 1].trim() === '') {
+      cleaned.pop();
+    }
+    
+    return cleaned.join('\n');
+  };
+
+  const cleanedContent = cleanMarkdown(content);
+
   // Custom renderer for links that look like citations [1], [2], etc.
   const renderText = (text: string) => {
     // Split text by citation patterns and render them as clickable links
@@ -61,15 +117,27 @@ const SummaryRenderer: React.FC<SummaryRendererProps> = ({ content, className })
             </p>
           ),
           // Custom rendering for lists
-          ul: ({ children }) => (
-            <ul className="list-disc list-inside mb-3 space-y-1">
-              {React.Children.map(children, (child, index) => (
-                <li key={index} className="text-foreground">
-                  {child}
-                </li>
-              ))}
-            </ul>
-          ),
+          ul: ({ children }) => {
+            // Filter out empty list items
+            const validChildren = React.Children.toArray(children).filter((child) => {
+              if (React.isValidElement(child)) {
+                // Extract text content from the child (which is already an <li>)
+                const childText = typeof child.props.children === 'string' 
+                  ? child.props.children 
+                  : React.Children.toArray(child.props.children)
+                      .map(c => typeof c === 'string' ? c : '')
+                      .join('');
+                return childText.trim() !== '';
+              }
+              return true;
+            });
+            
+            return (
+              <ul className="list-disc list-inside mb-3 space-y-1">
+                {validChildren}
+              </ul>
+            );
+          },
           // Custom rendering for list items
           li: ({ children }) => (
             <li className="ml-4">
@@ -106,7 +174,7 @@ const SummaryRenderer: React.FC<SummaryRendererProps> = ({ content, className })
           ),
         }}
       >
-        {content}
+        {cleanedContent}
       </ReactMarkdown>
     </div>
   );

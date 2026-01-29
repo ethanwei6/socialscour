@@ -1,410 +1,6 @@
 {
   "chats": [
     {
-      "id": "294b3a15-74ca-4b49-8ff0-10c7dd4344cb",
-      "title": "Iphone 16 sentiment",
-      "messages": [
-        {
-          "id": "c0421db6-3366-4bd4-9a10-2c47e2b25e44",
-          "role": "user",
-          "content": "Iphone 16 sentiment",
-          "timestamp": "2026-01-06T22:58:13.278872"
-        },
-        {
-          "id": "c0421db6-3366-4bd4-9a10-2c47e2b25e44",
-          "role": "user",
-          "content": "Iphone 16 sentiment",
-          "timestamp": "2026-01-06T22:58:13.278872"
-        },
-        {
-          "id": "c0421db6-3366-4bd4-9a10-2c47e2b25e44",
-          "role": "assistant",
-          "content": "Report generated successfully",
-          "timestamp": "2026-01-06T22:58:13.278872"
-        }
-      ],
-      "sources": [
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "Ming-Chi Kuo survey: Apple's iPhone 16 series, particularly ...",
-          "url": "https://www.reddit.com/r/apple/comments/1fn6jlf/mingchi_kuo_survey_apples_iphone_16_series/",
-          "subreddit": "apple",
-          "upvotes": 0,
-          "content": "Analysis: Apple's Misstep: The data implies that Apple may have overestimated consumer interest in the iPhone 16 Pro Max, particularly in its",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        },
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "Is the iPhone 16 Pro Max still worth buying nearly a year ...",
-          "url": "https://www.reddit.com/r/iPhone16ProMax/comments/1lt2d89/is_the_iphone_16_pro_max_still_worth_buying/",
-          "subreddit": "iPhone16ProMax",
-          "upvotes": 0,
-          "content": "I'm currently using the iPhone 16 Pro Max, and while it's undeniably powerful and smooth, I have to admit I'm still more in love with my Samsung",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        },
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "Major disappointment with iPhone 16 & iPhone innovation",
-          "url": "https://www.reddit.com/r/iphone/comments/1kjw67o/major_disappointment_with_iphone_16_iphone/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "I've upgraded to the iPhone 16 Pro Max and for the first time ever, I'm honestly shocked by how underwhelming it is. No real innovation. None of the new",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        },
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "My experience with the new iPhone 16e so far, what I like/ ...",
-          "url": "https://www.reddit.com/r/iphone/comments/1j5f9ni/my_experience_with_the_new_iphone_16e_so_far_what/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "I like the 16e. It's a great phone for my needs. Good size, decent price, great feel. Refresh rate (60hz) could've been better. I think if you",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        },
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "I bought an iPhone 16, and I have absolutely 0 \u00ab wow",
-          "url": "https://www.reddit.com/r/iphone/comments/1kbboxv/i_bought_an_iphone_16_and_i_have_absolutely_0_wow/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "The 16 is basically an Xr with better photo lenses. I can see that when I watch keynote.",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        },
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "Please tell me your experience with iPhone 16 pro..",
-          "url": "https://www.reddit.com/r/iPhone16Pro/comments/1ht9j59/please_tell_me_your_experience_with_iphone_16_pro/",
-          "subreddit": "iPhone16Pro",
-          "upvotes": 0,
-          "content": "The camera is phenomenal! Upgrading from the iPhone 11, I can feel the difference; it's so clear and crisp. I also love the photographic styles",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        },
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "Review of the iPhone 16 Pro Max from an ordinary ...",
-          "url": "https://www.reddit.com/r/iphone/comments/1i35yug/review_of_the_iphone_16_pro_max_from_an_ordinary/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "The phone does do nicely with regulating temperature, even with AI, and the screen and graphics quality is eons better than my old 11 Pro Max",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        },
-        {
-          "id": "46e462db-2bdd-40e5-a81a-dc73ab049f98",
-          "title": "Deciding between the iPhone 16e and the 17",
-          "url": "https://www.reddit.com/r/digitalminimalism/comments/1q1rdjs/deciding_between_the_iphone_16e_and_the_17/",
-          "subreddit": "digitalminimalism",
-          "upvotes": 0,
-          "content": "- The 16e is the cheaper phone that does what I need. Save the money and put it towards something else in my life. I just wish it had 120hz",
-          "timestamp": "2026-01-06T22:58:13.279317"
-        }
-      ],
-      "created_at": "2026-01-06T22:58:13.279815",
-      "updated_at": "2026-01-06T22:58:42.320283",
-      "subreddit_filter": null
-    },
-    {
-      "id": "e46bcabe-667a-4416-8b20-e9da6512d3b9",
-      "title": "Iphone 16",
-      "messages": [
-        {
-          "id": "854a21b1-9c20-4b84-a16d-594d8bffed1f",
-          "role": "user",
-          "content": "Iphone 16",
-          "timestamp": "2026-01-06T23:03:21.716637"
-        },
-        {
-          "id": "854a21b1-9c20-4b84-a16d-594d8bffed1f",
-          "role": "user",
-          "content": "Iphone 16",
-          "timestamp": "2026-01-06T23:03:21.716637"
-        },
-        {
-          "id": "854a21b1-9c20-4b84-a16d-594d8bffed1f",
-          "role": "assistant",
-          "content": "Report generated successfully",
-          "timestamp": "2026-01-06T23:03:21.716637"
-        }
-      ],
-      "sources": [
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "r/iPhone16Pro - A simple comparison for those who can't ...",
-          "url": "https://www.reddit.com/r/iPhone16Pro/comments/1fs4o06/a_simple_comparison_for_those_who_cant_decide/",
-          "subreddit": "iPhone16Pro",
-          "upvotes": 0,
-          "content": "Yes, the regular iPhone 16 has an f/1.6 aperture on its 48MP wide lens, which allows more light in, making it great for low-light photography.",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        },
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "Everything to Expect From Apple's iPhone 16 Launch on ...",
-          "url": "https://www.reddit.com/r/apple/comments/1faimnw/everything_to_expect_from_apples_iphone_16_launch/",
-          "subreddit": "apple",
-          "upvotes": 0,
-          "content": "Apple will launch four new iPhone models: iPhone 16, 16 Plus, 16 Pro, and 16 Pro Max. The non-Pro models will have minor upgrades.",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        },
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "iPhone 16 and iPhone 16 Plus Reviews: 'Pro Features at a ...",
-          "url": "https://www.reddit.com/r/apple/comments/1fk2t7x/iphone_16_and_iphone_16_plus_reviews_pro_features/",
-          "subreddit": "apple",
-          "upvotes": 0,
-          "content": "One of the \u200ciPhone\u200c 16's key features is support for Apple Intelligence. While many of these features are still on the way with future software",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        },
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "Apple announced iPhone 16 event for September 9th",
-          "url": "https://www.reddit.com/r/iphone/comments/1f1rzh9/apple_announced_iphone_16_event_for_september_9th/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "Everything to Expect From Apple's iPhone 16 Launch on Sept. 9 \u00b7 r/apple - Everything to Expect From Apple's iPhone 16 Launch on Sept. 9.",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        },
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "iPhone 16 Range Launch - New Camera Features",
-          "url": "https://www.reddit.com/r/smartphonefilming/comments/1fcx9ju/iphone_16_range_launch_new_camera_features_first/",
-          "subreddit": "smartphonefilming",
-          "upvotes": 0,
-          "content": "Everything to Expect From Apple's iPhone 16 Launch on Sept.\u200b\u200b iPhone 16 launch: A look at all the new features!",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        },
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "What are the standout features of the iPhone 16 that justify ...",
-          "url": "https://www.reddit.com/r/AskReddit/comments/1fqpf4q/what_are_the_standout_features_of_the_iphone_16/",
-          "subreddit": "AskReddit",
-          "upvotes": 0,
-          "content": "For someone who hasn't gotten a phone in a few years, there's the obvious advantage of it being newer and faster and with a fresh battery.",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        },
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "Are there any pros/cons for the Iphone 16's and up? And if ...",
-          "url": "https://www.reddit.com/r/iphone/comments/1pylnl5/are_there_any_proscons_for_the_iphone_16s_and_up/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "The 16+ just come with better battery life, cameras (if you care about that), brighter screens on the pro and pro maxes, and usb-c charging.",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        },
-        {
-          "id": "cf1f752e-740f-45a6-b3f0-375b101dfcd9",
-          "title": "When will Apple launch the iPhone 16 and iPhone 16 Pro?",
-          "url": "https://www.reddit.com/r/apple/comments/1emyxdd/when_will_apple_launch_the_iphone_16_and_iphone/",
-          "subreddit": "apple",
-          "upvotes": 0,
-          "content": "They'll announce it mid September, normally the second Tuesday of the month to release the Friday a couple of weeks later.",
-          "timestamp": "2026-01-06T23:03:21.717046"
-        }
-      ],
-      "created_at": "2026-01-06T23:03:21.717534",
-      "updated_at": "2026-01-06T23:03:44.752959",
-      "subreddit_filter": null
-    },
-    {
-      "id": "d211fc47-015e-46c5-914e-970de9c41302",
-      "title": "iPhone 17 pro max",
-      "messages": [
-        {
-          "id": "8ae7a474-d4b4-407d-bed5-b8874c6cb403",
-          "role": "user",
-          "content": "iPhone 17 pro max sentiment",
-          "timestamp": "2026-01-06T23:07:47.415663"
-        },
-        {
-          "id": "8ae7a474-d4b4-407d-bed5-b8874c6cb403",
-          "role": "user",
-          "content": "iPhone 17 pro max sentiment",
-          "timestamp": "2026-01-06T23:07:47.415663"
-        },
-        {
-          "id": "8ae7a474-d4b4-407d-bed5-b8874c6cb403",
-          "role": "assistant",
-          "content": "Report generated successfully",
-          "timestamp": "2026-01-06T23:07:47.415663"
-        }
-      ],
-      "sources": [
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "My review of the new iPhone 17 Pro Max : r/iPhone17Pro",
-          "url": "https://www.reddit.com/r/iPhone17Pro/comments/1nu74u2/my_review_of_the_new_iphone_17_pro_max/",
-          "subreddit": "iPhone17Pro",
-          "upvotes": 0,
-          "content": "TLDR: The iPhone 17 Pro Max is the best iPhone I've owned. Better battery, cooler under stress, and a camera that kills it for work and daily",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        },
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "iPhone 17 Pro Max owner, opinion after 2 months?",
-          "url": "https://www.reddit.com/r/iphone/comments/1oyo79w/iphone_17_pro_max_owner_opinion_after_2_months/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "Battery life is pretty amazing, camera is phenomenal (I take quite a few photos), screen is excellent. It is definitely a chonk of a phone (",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        },
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "Now that it's been a while how are you 17 pro max owners ...",
-          "url": "https://www.reddit.com/r/iphone/comments/1puwkmw/now_that_its_been_a_while_how_are_you_17_pro_max/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "Battery life is great. IOS 26 isn't especially bad, it still needs to be refined. Performance wise it's amazing. No heat issues at all. Treat",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        },
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "iPhone 17 Pro Max users, after a while have you felt like ...",
-          "url": "https://www.reddit.com/r/iphone/comments/1nz6jcs/iphone_17_pro_max_users_after_a_while_have_you/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "I have had the 17pm for 1 day and im already feeling numbness and nerve pain for the first time in my life. It's starting to feel dangerous",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        },
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "iPhone 17 Pro Max user experience? How does it compare ...",
-          "url": "https://www.reddit.com/r/iphone/comments/1p2orrg/iphone_17_pro_max_user_experience_how_does_it/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "Camera is great and overall usage is similar to my 16PM. The biggest upgrade I noticed is the heat dissipation . With previous gens I've noticed",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        },
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "iPhone 17 Pro Max Review - Even BETTER Than You Think ...",
-          "url": "https://www.reddit.com/r/apple/comments/1njbet1/iphone_17_pro_max_review_even_better_than_you/",
-          "subreddit": "apple",
-          "upvotes": 0,
-          "content": "Picked up my 17 Pro Max and it slaps 100% - biggest wow factor is a much brighter and more contrast display. For the first time everything on it",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        },
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "Am I the only one seriously disappointed with the 17 Pro?",
-          "url": "https://www.reddit.com/r/iphone/comments/1q0dazq/am_i_the_only_one_seriously_disappointed_with_the/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "It feels like a base model iPhone. No premium feel. The finish is already wearing off within 12 hours of opening the box. Not impressed by the",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        },
-        {
-          "id": "d6f983dc-3ea9-45c5-a20b-6e5e0f773223",
-          "title": "Am I the only feeling that my Iphone17 pro max is laggy as ...",
-          "url": "https://www.reddit.com/r/iphone/comments/1p5dglm/am_i_the_only_feeling_that_my_iphone17_pro_max_is/",
-          "subreddit": "iphone",
-          "upvotes": 0,
-          "content": "Quite a number of people are experiencing lags and stutters. My 17 pro also lags. I hope Apple fixes it with next iOS update",
-          "timestamp": "2026-01-06T23:07:47.416065"
-        }
-      ],
-      "created_at": "2026-01-06T23:07:47.416540",
-      "updated_at": "2026-01-06T23:08:18.164406",
-      "subreddit_filter": null
-    },
-    {
-      "id": "2a58f88a-bf21-4824-b965-d9554d86c3be",
-      "title": "Palantir stock",
-      "messages": [
-        {
-          "id": "0d4616f7-432e-4098-b787-723e40f580e8",
-          "role": "user",
-          "content": "Palantir stock",
-          "timestamp": "2026-01-06T23:10:07.941492"
-        },
-        {
-          "id": "0d4616f7-432e-4098-b787-723e40f580e8",
-          "role": "user",
-          "content": "Palantir stock",
-          "timestamp": "2026-01-06T23:10:07.941492"
-        },
-        {
-          "id": "0d4616f7-432e-4098-b787-723e40f580e8",
-          "role": "assistant",
-          "content": "Report generated successfully",
-          "timestamp": "2026-01-06T23:10:07.941492"
-        }
-      ],
-      "sources": [
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "Wall Street wrote off Palantir as too expensive. Retail ...",
-          "url": "https://www.reddit.com/r/StockMarket/comments/1pvjpg5/wall_street_wrote_off_palantir_as_too_expensive/",
-          "subreddit": "StockMarket",
-          "upvotes": 0,
-          "content": "Palantir stock slumps 9%, falling for a fifth straight day from record ... Palantir stock drops 8% on valuation concerns as CEO Alex Karp",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        },
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "Has Palantir Technologies Become a Better Artificial ...",
-          "url": "https://www.reddit.com/r/PLTR/comments/1ouuufl/has_palantir_technologies_become_a_better/",
-          "subreddit": "PLTR",
-          "upvotes": 0,
-          "content": "I love Palantir stock but fundamentally it's a lot riskier than Nvidia . Just buy both and adjust the proportion depending on your risk",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        },
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "I don't understand Palantir : r/ValueInvesting",
-          "url": "https://www.reddit.com/r/ValueInvesting/comments/1miteyo/i_dont_understand_palantir/",
-          "subreddit": "ValueInvesting",
-          "upvotes": 0,
-          "content": "Palantir is not a value stock. Value investors need not apply. The most expensive stock in the market just keeps getting more expensive, making",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        },
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "r/palantir",
-          "url": "https://www.reddit.com/r/palantir/",
-          "subreddit": "palantir",
-          "upvotes": 0,
-          "content": "Veteran fund manager reboots Palantir stock price target - As a result, he's increased his price target to $140 per share from $130.",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        },
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "Palantir: A wonderful company , with a not so ...",
-          "url": "https://www.reddit.com/r/ValueInvesting/comments/1mk4b3s/palantir_a_wonderful_company_with_a_not_so/",
-          "subreddit": "ValueInvesting",
-          "upvotes": 0,
-          "content": "In the last couple of months Palantir's share price has gone parabolic. Today it flirted with $184 per share, more than seven times its 2024",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        },
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "Palantir short thesis and an analysis of its current earnings ...",
-          "url": "https://www.reddit.com/r/stocks/comments/1gv6hj0/palantir_short_thesis_and_an_analysis_of_its/",
-          "subreddit": "stocks",
-          "upvotes": 0,
-          "content": "Palantir dropped 16% in November for its worst month in two years since August 2023 as AI stocks sell off due to valuation fears. r/technology",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        },
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "What are your thoughts on the company Palantir? : r/investing",
-          "url": "https://www.reddit.com/r/investing/comments/1okwp3r/what_are_your_thoughts_on_the_company_palantir/",
-          "subreddit": "investing",
-          "upvotes": 0,
-          "content": "Palantir trades at over 225x forward earnings and has like a 600 P/E ratio. Can that valuation really hold up? Even with its strong AI and",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        },
-        {
-          "id": "c0571a49-d982-4ab6-be51-ecd775a7cf7e",
-          "title": "PALANTIR is at now at 569.69 PE. Is it a sign for a big short ...",
-          "url": "https://www.reddit.com/r/stocks/comments/1nfvisi/palantir_is_at_now_at_56969_pe_is_it_a_sign_for_a/",
-          "subreddit": "stocks",
-          "upvotes": 0,
-          "content": "PALANTIR is at now at 569.69 PE. Is it a sign for a big short or a small long ? ... The stock has skyrocketed like crazy and I don't seem to",
-          "timestamp": "2026-01-06T23:10:07.941903"
-        }
-      ],
-      "created_at": "2026-01-06T23:10:07.942382",
-      "updated_at": "2026-01-06T23:11:00.301966",
-      "subreddit_filter": null
-    },
-    {
       "id": "9718a86c-3b83-4f58-b0d5-d8ee29a882df",
       "title": "ole henriksen lip gloss",
       "messages": [
@@ -705,6 +301,107 @@
       ],
       "created_at": "2026-01-07T17:37:47.505745",
       "updated_at": "2026-01-07T17:38:31.886901",
+      "subreddit_filter": null
+    },
+    {
+      "id": "1255c2aa-93e3-4471-94a9-6fa3cc2dcfc8",
+      "title": "Robert Ghrist",
+      "messages": [
+        {
+          "id": "8bd9fea9-105f-4bb7-ab4b-58930525845a",
+          "role": "user",
+          "content": "Robert Ghrist",
+          "timestamp": "2026-01-29T11:22:38.528002"
+        },
+        {
+          "id": "8bd9fea9-105f-4bb7-ab4b-58930525845a",
+          "role": "user",
+          "content": "Robert Ghrist",
+          "timestamp": "2026-01-29T11:22:38.528002"
+        },
+        {
+          "id": "8bd9fea9-105f-4bb7-ab4b-58930525845a",
+          "role": "assistant",
+          "content": "**Sentiment Explanation:**\nThe 80.0/100 positive sentiment for Robert Ghrist is primarily driven by widespread praise for his online educational content, particularly his calculus videos. Users consistently commend his high-quality production and the effectiveness of his teaching materials, positioning him as a highly valuable resource for students. His affiliation as a University of Pennsylvania professor further enhances his credibility and respect within the community.\n\n**Direct Answer:**\nReddit users hold an overwhelmingly positive view of Robert Ghrist, largely due to his highly recommended online educational content, especially his \"awesome\" calculus videos. He is widely recognized as a distinguished University of Pennsylvania professor whose teaching materials are praised for their \"excellent content\" and \"immense production quality,\" making him a go-to resource for those studying mathematics.\n\n**Key Sentiment Drivers:**\n*   **High-Quality Educational Content:** Users consistently recommend his \"awesome videos on calc\" [2,3,4] and highlight his \"excellent content\" [8], particularly for subjects like multivariable calculus.\n*   **Exceptional Production Quality:** His video series is celebrated for its \"immense production quality\" [8], suggesting a well-produced and engaging learning experience for viewers.\n*   **Credibility and Expertise:** Being identified as \"a professor from the University of Pennsylvania\" [2,3,4] lends significant academic authority and trust to his educational materials.\n*   **Philosophical Depth:** Beyond practical instruction, Ghrist is also acknowledged for his thought-provoking inquiries into the fundamental nature and perceived beauty of mathematics [1].\n\n**Contradicting Views:**\n*   There are no explicitly stated negative or critical views of Robert Ghrist within the provided Reddit discussions. All direct mentions are positive.\n*   While frequently recommended, Robert Ghrist is not included in all lists of essential online platforms for engineering students [5,6,7], which suggests his content, while highly regarded, may not be universally known or considered a top-tier resource by every user.",
+          "timestamp": "2026-01-29T11:22:38.528002"
+        }
+      ],
+      "sources": [
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "Mathematician Robert Ghrist: \"What if mathematics ...",
+          "url": "https://www.reddit.com/r/IntellectualDarkWeb/comments/il6q31/mathematician_robert_ghrist_what_if_mathematics/",
+          "subreddit": "IntellectualDarkWeb",
+          "upvotes": 0,
+          "content": "r/IntellectualDarkWeb icon\n\n# Mathematician Robert Ghrist: \"What if mathematics' apparent beauty is a ruse or self-delusion?\n\nKevin Knudson: While most people imagine mathematicians doing arithmetic all day, except with really big numbers, the truth is that the discipline requires a remarkable amount of creativity and visual thinking. It is equal parts art and science. The late Maryam Mirzakhani, the first woman to win the Fields Medal, spent hours \"doodling\" on enormous sheets of paper as she worked out her mathematical ideas. These formed the basis of her elegant arguments in geometry and topology. [...] Robert Ghrist: Perhaps the question is not what makes Mathematics aesthetic to you or me or us, but whether it is or merely seems. I am troubled by beauty\u2019s fade in Mathematics, but I remain a mathematician, hoping for beautiful truths that do not decay with familiarity.\n\nCreate your account and connect with a world of communities.\n\nAnyone can view, post, and comment to this communit",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        },
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "Reddit - The heart of the internet",
+          "url": "https://www.reddit.com/r/EngineeringStudents/comments/1blfdsy/internship_advice_terracon_or_usace",
+          "subreddit": "EngineeringStudents",
+          "upvotes": 0,
+          "content": "PatrickJMT: Provides quick, clear, and concise videos on specific calculus topics. \"If youre looking for help with specific concepts or lessons I suggest PatrickJMT on youtube, his videos are quick, clear, and concise!\"\n\nRobert Ghrist: Features awesome videos on calculus from a University of Pennsylvania professor. \"Robert Ghrist. A professor from the university of Pennsylvania. Awesome videos on calc. You can find it on YouTube\"\n\n### Essential Online Platforms\n\nPaul's Online Notes: Comprehensive notes and practice problems with detailed solutions. \"Paul's online notes helped me through 4 math courses in my program.\"\n\nKhan Academy: Offers a structured learning path with videos, exercises, and quizzes. \"How has no one said Khan Academy yet?\" [...] Coursera Courses: Offers free and paid courses from universities, providing structured learning. \"Check out these free courses on coursera: Calculus One by Jim Fowler, Single Variable Calculus by Robert Ghrist.\"\n\nDesmos: An online graphing cal",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        },
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "Reddit - The heart of the internet",
+          "url": "https://www.reddit.com/r/EngineeringStudents/comments/ska0m9/if_one_has_completed_all_of_khan_academys_maths",
+          "subreddit": "EngineeringStudents",
+          "upvotes": 0,
+          "content": "PatrickJMT: Provides quick, clear, and concise videos on specific calculus topics. \"If youre looking for help with specific concepts or lessons I suggest PatrickJMT on youtube, his videos are quick, clear, and concise!\"\n\nRobert Ghrist: Features awesome videos on calculus from a University of Pennsylvania professor. \"Robert Ghrist. A professor from the university of Pennsylvania. Awesome videos on calc. You can find it on YouTube\"\n\n### Essential Online Platforms\n\nPaul's Online Notes: Comprehensive notes and practice problems with detailed solutions. \"Paul's online notes helped me through 4 math courses in my program.\"\n\nKhan Academy: Offers a structured learning path with videos, exercises, and quizzes. \"How has no one said Khan Academy yet?\" [...] Coursera Courses: Offers free and paid courses from universities, providing structured learning. \"Check out these free courses on coursera: Calculus One by Jim Fowler, Single Variable Calculus by Robert Ghrist.\"\n\nDesmos: An online graphing cal",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        },
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "Reddit - The heart of the internet",
+          "url": "https://www.reddit.com/r/EngineeringStudents/comments/tyhde9/i_feel_like_am_a_mechanical_engineering_student",
+          "subreddit": "EngineeringStudents",
+          "upvotes": 0,
+          "content": "PatrickJMT: Provides quick, clear, and concise videos on specific calculus topics. \"If youre looking for help with specific concepts or lessons I suggest PatrickJMT on youtube, his videos are quick, clear, and concise!\"\n\nRobert Ghrist: Features awesome videos on calculus from a University of Pennsylvania professor. \"Robert Ghrist. A professor from the university of Pennsylvania. Awesome videos on calc. You can find it on YouTube\"\n\n### Essential Online Platforms\n\nPaul's Online Notes: Comprehensive notes and practice problems with detailed solutions. \"Paul's online notes helped me through 4 math courses in my program.\"\n\nKhan Academy: Offers a structured learning path with videos, exercises, and quizzes. \"How has no one said Khan Academy yet?\" [...] Coursera Courses: Offers free and paid courses from universities, providing structured learning. \"Check out these free courses on coursera: Calculus One by Jim Fowler, Single Variable Calculus by Robert Ghrist.\"\n\nDesmos: An online graphing cal",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        },
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "Reddit - The heart of the internet",
+          "url": "https://www.reddit.com/r/EngineeringStudents/comments/16nrjs2/are_engineers_arrogant",
+          "subreddit": "EngineeringStudents",
+          "upvotes": 0,
+          "content": "3blue1brown: Known for his visually intuitive explanations using animations. \"You should check out 3blue1brown on YouTube \u201cEssence of Calculus\u201d, he really makes great animations that help you grasp the concepts\"\n\nBlackPenRedPen: Offers numerous examples and problem-solving sessions. \"Professor Leonard for lectures and BlackPenRedPen for examples.\"\n\nPatrickJMT: Provides quick, clear, and concise videos on specific calculus topics. \"If youre looking for help with specific concepts or lessons I suggest PatrickJMT on youtube, his videos are quick, clear, and concise!\"\n\nRobert Ghrist: Features awesome videos on calculus from a University of Pennsylvania professor. \"Robert Ghrist. A professor from the university of Pennsylvania. Awesome videos on calc. You can find it on YouTube\" [...] Coursera Courses: Offers free and paid courses from universities, providing structured learning. \"Check out these free courses on coursera: Calculus One by Jim Fowler, Single Variable Calculus by Robert Ghrist",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        },
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "Reddit - The heart of the internet",
+          "url": "https://www.reddit.com/r/EngineeringStudents/comments/13w0x17/are_you_guys_not_taking_welding_classes",
+          "subreddit": "EngineeringStudents",
+          "upvotes": 0,
+          "content": "3blue1brown: Known for his visually intuitive explanations using animations. \"You should check out 3blue1brown on YouTube \u201cEssence of Calculus\u201d, he really makes great animations that help you grasp the concepts\"\n\nBlackPenRedPen: Offers numerous examples and problem-solving sessions. \"Professor Leonard for lectures and BlackPenRedPen for examples.\"\n\nPatrickJMT: Provides quick, clear, and concise videos on specific calculus topics. \"If youre looking for help with specific concepts or lessons I suggest PatrickJMT on youtube, his videos are quick, clear, and concise!\"\n\nRobert Ghrist: Features awesome videos on calculus from a University of Pennsylvania professor. \"Robert Ghrist. A professor from the university of Pennsylvania. Awesome videos on calc. You can find it on YouTube\" [...] Coursera Courses: Offers free and paid courses from universities, providing structured learning. \"Check out these free courses on coursera: Calculus One by Jim Fowler, Single Variable Calculus by Robert Ghrist",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        },
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "Reddit - The heart of the internet",
+          "url": "https://www.reddit.com/r/EngineeringStudents/comments/m9nt2n/this_is_my_differential_equations_strategy_flow",
+          "subreddit": "EngineeringStudents",
+          "upvotes": 0,
+          "content": "3blue1brown: Known for his visually intuitive explanations using animations. \"You should check out 3blue1brown on YouTube \u201cEssence of Calculus\u201d, he really makes great animations that help you grasp the concepts\"\n\nBlackPenRedPen: Offers numerous examples and problem-solving sessions. \"Professor Leonard for lectures and BlackPenRedPen for examples.\"\n\nPatrickJMT: Provides quick, clear, and concise videos on specific calculus topics. \"If youre looking for help with specific concepts or lessons I suggest PatrickJMT on youtube, his videos are quick, clear, and concise!\"\n\nRobert Ghrist: Features awesome videos on calculus from a University of Pennsylvania professor. \"Robert Ghrist. A professor from the university of Pennsylvania. Awesome videos on calc. You can find it on YouTube\" [...] Coursera Courses: Offers free and paid courses from universities, providing structured learning. \"Check out these free courses on coursera: Calculus One by Jim Fowler, Single Variable Calculus by Robert Ghrist",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        },
+        {
+          "id": "05f30463-6bdc-4727-9398-369438f51ec7",
+          "title": "math",
+          "url": "https://www.reddit.com/r/math/comments/lxkb2i/inspired_by_another_post_i_wanted_to_share/",
+          "subreddit": "math",
+          "upvotes": 0,
+          "content": "r/math icon\n\n# Inspired by another post I wanted to share another small YouTube channel that has some excellent content, Professor Robert Ghrist. The production quality he has put into his video series is immense and I strongly urge you to check out his multivariable calculus videos.\n\nr/math - Inspired by another post I wanted to share another small YouTube channel that has some excellent content, Professor Robert Ghrist. The production quality he has put into his video series is immense and I strongly urge you to check out his multivariable calculus videos.\n\n# Related Answers Section [...] ### Other Fields\n\nMachine Learning: While not a direct application, understanding abstract algebra can help in comprehending the underlying algorithms in machine learning. \"I heard from a friend who knows a bit of ML (but no algebra) that algebra is supposed to help you understand the algorithms in ML better.\"\n\n### Subreddits for Further Exploration\n\nTo dive deeper into these applications or ask mor",
+          "timestamp": "2026-01-29T11:22:38.528460"
+        }
+      ],
+      "created_at": "2026-01-29T11:22:38.528939",
+      "updated_at": "2026-01-29T11:23:32.977258",
       "subreddit_filter": null
     }
   ]

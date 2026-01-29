@@ -46,7 +46,7 @@ export interface ChatContextType {
   streamingContent: string;
   loadChats: () => Promise<void>;
   createChat: (query: string, subreddit_filter?: string) => Promise<Chat | null>;
-  setActiveChat: (chatId: string | null) => void;
+  setActiveChat: (chat: Chat | null) => void | Promise<void>;
   sendQuery: (query: string, chatId?: string, subreddit_filter?: string) => Promise<void>;
   updateChatTitle: (chatId: string, title: string) => Promise<void>;
   deleteChat: (chatId: string) => Promise<void>;
