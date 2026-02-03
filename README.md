@@ -6,11 +6,8 @@ A sophisticated "Search-First RAG" tool for real-time Reddit sentiment analysis,
 
 - **Real-time Reddit Search**: Uses Tavily API to search Reddit discussions in real-time
 - **AI-Powered Sentiment Analysis**: Gemini 1.5 Flash analyzes sentiment and generates structured reports
-- **Three-Column Interface**: Clean, professional layout optimized for information density
 - **Streaming Responses**: Real-time report generation with live sentiment gauges
 - **Chat History**: Persistent storage of research sessions with editable titles
-- **Subreddit Filtering**: Target specific communities or search across all of Reddit
-- **Dark/Light Mode**: Full theme support with system preference detection
 
 ## Architecture
 
@@ -18,15 +15,12 @@ A sophisticated "Search-First RAG" tool for real-time Reddit sentiment analysis,
 - **FastAPI**: High-performance async web framework
 - **Tavily API**: Real-time Reddit search integration
 - **Gemini 1.5 Flash**: AI-powered sentiment analysis and report generation
-- **Streaming**: Server-sent events for real-time response streaming
-- **Modular Design**: Easy to swap file storage for PostgreSQL/Supabase
 
 ### Frontend (React + TypeScript)
 - **React 18**: Modern React with hooks and context
 - **TypeScript**: Full type safety and better developer experience
 - **Tailwind CSS**: Utility-first CSS framework
 - **Three-Column Layout**: Navigation, Research Engine, Intelligence Sidebar
-- **Streaming**: ReadableStream API for live content updates
 
 ## Quick Start
 
@@ -38,6 +32,7 @@ A sophisticated "Search-First RAG" tool for real-time Reddit sentiment analysis,
 
 ### Backend Setup
 
+- **Streaming**: ReadableStream API for live content updates
 ```bash
 cd backend
 
@@ -130,7 +125,6 @@ socialscour/
 
 1. **Start a Research Session**: Click "New Research" or enter a query in the search bar
 2. **Enter Your Query**: Type any topic, brand, or product name
-3. **Filter by Subreddit** (Optional): Target specific communities like r/technology
 4. **Analyze Results**: View real-time sentiment analysis and detailed reports
 5. **Explore Sources**: Click citation numbers to view original Reddit discussions
 6. **Manage History**: Edit chat titles, delete old sessions, and revisit past research
@@ -183,7 +177,3 @@ npm run build
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
-
-## Support
-
-For support, please open an issue on GitHub or contact the development team.
