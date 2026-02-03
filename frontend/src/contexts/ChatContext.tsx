@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useCallback, ReactNode, useEffect, useRef, startTransition } from 'react';
 import { ChatContextType, Chat, Message, Source, SentimentAnalysis } from '../types';
+import { getApiUrl } from '../lib/utils';
 
 const ChatContext = createContext<ChatContextType | undefined>(undefined);
 
@@ -33,7 +34,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
   // Load all chats from backend
   const loadChats = useCallback(async () => {
     try {
-      const response = await fetch('/api/chats');
+      const response = await fetch(`${getApiUrl()}/api/chats`);
       if (response.ok) {
         const data = await response.json();
         setChats(data);
@@ -51,7 +52,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
         params.append('subreddit_filter', subreddit_filter);
       }
       
-      const response = await fetch('/api/chats', {
+      const response = await fetch(`${getApiUrl()}/api/chats`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
@@ -90,7 +91,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
       if (document.visibilityState === 'visible' && isStreamingRef.current && currentChatIdRef.current) {
         // Tab became visible again - check if streaming completed while away
         try {
-          const response = await fetch(`/api/chats/${currentChatIdRef.current}`);
+          const response = await fetch(`${getApiUrl()}/api/chats/${currentChatIdRef.current}`);
           if (response.ok) {
             const updatedChat = await response.json();
             // Check if there's a new assistant message that wasn't in our state
@@ -169,7 +170,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
         subreddit_filter,
       };
 
-      const response = await fetch(`/api/research/${currentChatId}/stream`, {
+      const response = await fetch(`${getApiUrl()}/api/research/${currentChatId}/stream`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -338,7 +339,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
       loadChats().then(() => {
         // Update activeChat with the latest data including sources
         if (currentChatId) {
-          fetch(`/api/chats/${currentChatId}`)
+          fetch(`${getApiUrl()}/api/chats/${currentChatId}`)
             .then(response => {
               if (response.ok) {
                 return response.json();
@@ -367,7 +368,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
         // Try to fetch the latest state from backend
         if (currentChatId) {
           try {
-            const response = await fetch(`/api/chats/${currentChatId}`);
+            const response = await fetch(`${getApiUrl()}/api/chats/${currentChatId}`);
             if (response.ok) {
               const updatedChat = await response.json();
               setActiveChat(updatedChat);
@@ -393,7 +394,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
   // Update chat title
   const updateChatTitle = useCallback(async (chatId: string, title: string) => {
     try {
-      const response = await fetch(`/api/chats/${chatId}/title`, {
+      const response = await fetch(`${getApiUrl()}/api/chats/${chatId}/title`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -417,7 +418,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
   // Delete chat
   const deleteChat = useCallback(async (chatId: string) => {
     try {
-      const response = await fetch(`/api/chats/${chatId}`, {
+      const response = await fetch(`${getApiUrl()}/api/chats/${chatId}`, {
         method: 'DELETE',
       });
 
@@ -462,7 +463,7 @@ export const ChatProvider: React.FC<ChatProviderProps> = ({ children }) => {
 
     // Fetch the latest chat data from backend to ensure we have correct sources
     try {
-      const response = await fetch(`/api/chats/${chat.id}`);
+      const response = await fetch(`${getApiUrl()}/api/chats/${chat.id}`);
       if (response.ok) {
         const updatedChat = await response.json();
         setActiveChat(updatedChat);

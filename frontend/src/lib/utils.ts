@@ -47,3 +47,11 @@ export function getSentimentBgColor(score: number): string {
   if (score >= 20) return 'bg-orange-400';
   return 'bg-red-400';
 }
+
+/**
+ * Get the base API URL from environment variables
+ * Falls back to empty string for relative URLs (development with proxy)
+ */
+export function getApiUrl(): string {
+  return import.meta.env.VITE_API_URL || '';
+}

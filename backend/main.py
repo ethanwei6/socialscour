@@ -4,6 +4,7 @@ from fastapi.responses import StreamingResponse
 from typing import List, Optional
 import asyncio
 import json
+import os
 
 from models import QueryRequest, ChatTitleUpdate, Chat, Message, Source, SentimentAnalysis
 from rag_service import rag_service
@@ -12,10 +13,13 @@ from storage_service import storage_service
 # Create FastAPI app
 app = FastAPI(title="SocialScour API", version="1.0.0")
 
-# Configure CORS
+# Configure CORS - use environment variable for production, fallback to localhost for development
+allowed_origins_str = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173")
+allowed_origins = [origin.strip() for origin in allowed_origins_str.split(",")]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
